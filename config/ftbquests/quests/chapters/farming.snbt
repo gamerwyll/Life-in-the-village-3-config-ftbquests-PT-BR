@@ -3,7 +3,7 @@
 	group: "46433AE7955AB640"
 	order_index: 1
 	filename: "farming"
-	title: "Fish n Farm"
+	title: "{quest.chaptergroups.farm.1.title}"
 	icon: "minecraft:wheat"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -851,7 +851,7 @@
 	]
 	quests: [
 		{
-			title: "What is this junk?"
+			title: "{quest.chaptergroups.farm.1.1.title}"
 			x: -1.5d
 			y: 6.5d
 			dependencies: ["00000000000015DB"]
@@ -907,7 +907,7 @@
 			]
 		}
 		{
-			title: "Gotta Catch Them All!"
+			title: "{quest.chaptergroups.farm.1.2.title}"
 			x: -2.5d
 			y: 6.0d
 			dependencies: ["00000000000015DB"]
@@ -1167,10 +1167,10 @@
 			}]
 		}
 		{
-			title: "Sweet Berries"
+			title: "{quest.chaptergroups.farm.1.3.title}"
 			x: 0.5d
 			y: -1.0d
-			description: ["You are going to have to travel to the great white north to find some of these delicous berries."]
+			description: ["{quest.chaptergroups.farm.1.3.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD8"
 			tasks: [{
@@ -1186,10 +1186,10 @@
 			}]
 		}
 		{
-			title: "Hell Wart"
+			title: "{quest.chaptergroups.farm.1.4.title}"
 			x: 0.0d
 			y: 1.0d
-			description: ["Nether fortress mold."]
+			description: ["quest.chaptergroups.farm.1.4.description.1"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD6"
 			tasks: [{
@@ -1205,10 +1205,10 @@
 			}]
 		}
 		{
-			title: "Sugar or Paper?"
+			title: "{quest.chaptergroups.farm.1.5.title}"
 			x: 0.5d
 			y: -2.0d
-			description: ["Let those stalks reach for the sky!"]
+			description: ["{quest.chaptergroups.farm.1.5.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "000000000000072E"
 			tasks: [{
@@ -1234,7 +1234,7 @@
 		{
 			x: -3.0d
 			y: -3.0d
-			description: ["You don't have jack on me Mr. Pumpkin!"]
+			description: ["{quest.chaptergroups.farm.1.5.description.2}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD4"
 			tasks: [{
@@ -1249,14 +1249,14 @@
 			}]
 		}
 		{
-			title: "Basic Farming"
+			title: "{quest.chaptergroups.farm.1.6.title}"
 			icon: "minecraft:farmland"
 			x: -1.5d
 			y: -1.0d
 			description: [
-				"The following are your basic crops that will always be handy when you are hungry."
+				"{quest.chaptergroups.farm.1.6.description.1}"
 				""
-				"The quests following the initial crops give a basic recipe to help keep you fed but look to JEI for more complex and fullfilling recipes."
+				"{quest.chaptergroups.farm.1.6.description.2}"
 			]
 			id: "0000000000000FC0"
 			tasks: [{
@@ -1289,7 +1289,7 @@
 		{
 			x: -3.5d
 			y: -2.0d
-			description: ["You will come across a lot of these from grass."]
+			description: ["{quest.chaptergroups.farm.1.6.description.3}"]
 			dependencies: ["0000000000000FC0"]
 			id: "00000000000000C5"
 			tasks: [{
@@ -1306,7 +1306,7 @@
 		{
 			x: -3.5d
 			y: -1.0d
-			description: ["I am supposed to beat a root?"]
+			description: ["{quest.chaptergroups.farm.1.6.description.4}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FC6"
 			tasks: [{
@@ -1321,10 +1321,10 @@
 			}]
 		}
 		{
-			title: "Cacti"
+			title: "{quest.chaptergroups.farm.1.7.title}"
 			x: -3.5d
 			y: 0.0d
-			description: ["Desert adventure time."]
+			description: ["{quest.chaptergroups.farm.1.7.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FC2"
 			tasks: [{
@@ -1340,10 +1340,10 @@
 			}]
 		}
 		{
-			title: "Potato, Potatoe"
+			title: "{quest.chaptergroups.farm.1.8.title}"
 			x: -2.0d
 			y: -3.5d
-			description: ["Should be able to nab some of these to get you started from a village."]
+			description: ["{quest.chaptergroups.farm.1.8.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "00000000000000CD"
 			tasks: [{
@@ -1366,10 +1366,10 @@
 			]
 		}
 		{
-			title: "Carrots"
+			title: "{quest.chaptergroups.farm.1.9.title}"
 			x: -1.0d
 			y: -3.5d
-			description: ["Should be able to find a few of these in villages as well."]
+			description: ["{quest.chaptergroups.farm.1.9.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD0"
 			tasks: [{
@@ -1560,10 +1560,10 @@
 			}]
 		}
 		{
-			title: "Wheatabix"
+			title: "{quest.chaptergroups.farm.1.10.title}"
 			x: -4.5d
 			y: -2.5d
-			description: ["Get to growing!"]
+			description: ["{quest.chaptergroups.farm.1.10.description.1}"]
 			dependencies: ["00000000000000C5"]
 			id: "00000000000000C9"
 			tasks: [{
@@ -1644,7 +1644,7 @@
 			}]
 		}
 		{
-			title: "Sugar"
+			title: "{quest.chaptergroups.farm.1.11.title}"
 			x: 1.5d
 			y: -2.0d
 			dependencies: ["000000000000072E"]
@@ -1664,7 +1664,7 @@
 		{
 			x: 1.0d
 			y: -3.0d
-			description: ["Man I will be able to write so much stuff on this."]
+			description: ["{quest.chaptergroups.farm.1.11.description.1}"]
 			dependencies: ["000000000000072E"]
 			id: "0000000000000FCE"
 			tasks: [{
@@ -1682,7 +1682,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			description: ["The skin of the innocent..... oh boy that sounds bad....."]
+			description: ["{quest.chaptergroups.farm.1.11.description.2}"]
 			id: "0000000000000FE2"
 			tasks: [{
 				id: "0000000000000FE3"
@@ -1698,7 +1698,7 @@
 		{
 			x: -3.0d
 			y: 2.0d
-			description: ["Eggs o'plenty!"]
+			description: ["quest.chaptergroups.farm.1.11.description.3"]
 			id: "000000000000132B"
 			tasks: [{
 				id: "000000000000132C"
@@ -1734,7 +1734,7 @@
 		{
 			x: -3.0d
 			y: 1.0d
-			description: ["Give your base some flair."]
+			description: ["{quest.chaptergroups.farm.1.11.description.4}"]
 			dependencies: ["0000000000000FC2"]
 			id: "00000000000000D3"
 			tasks: [{
@@ -1802,7 +1802,7 @@
 		{
 			x: -2.0d
 			y: 4.5d
-			description: ["Time to get fishing!"]
+			description: ["{quest.chaptergroups.farm.1.11.description.5}"]
 			id: "00000000000015DB"
 			tasks: [{
 				id: "00000000000015DC"
@@ -1825,9 +1825,9 @@
 			x: -3.5d
 			y: 4.5d
 			description: [
-				"Fillet of fish sure sounds a lot better than eating a whole fish, scales and all."
+				"{quest.chaptergroups.farm.1.11.description.6}"
 				""
-				"Pretty much a sharp stick."
+				"{quest.chaptergroups.farm.1.11.description.7}"
 			]
 			dependencies: ["00000000000015DB"]
 			id: "000000000000161A"
@@ -1859,7 +1859,7 @@
 		{
 			x: 1.0d
 			y: 4.5d
-			description: ["My own custom designed fishing rod. Can be customized with special tackle and bait."]
+			description: ["{quest.chaptergroups.farm.1.11.description.8}"]
 			dependencies: ["00000000000015DB"]
 			id: "00000000000015DD"
 			tasks: [{
@@ -1895,7 +1895,7 @@
 		{
 			x: -3.5d
 			y: 5.5d
-			description: ["Should be better than cutting open a fish with a sharp stick."]
+			description: ["{quest.chaptergroups.farm.1.11.description.9}"]
 			dependencies: ["000000000000161A"]
 			id: "000000000000161C"
 			tasks: [{
@@ -1925,7 +1925,7 @@
 		{
 			x: -3.5d
 			y: 6.5d
-			description: ["My first professional fillet knife."]
+			description: ["{quest.chaptergroups.farm.1.11.description.10}"]
 			dependencies: ["000000000000161C"]
 			id: "000000000000161E"
 			tasks: [{
@@ -1954,7 +1954,7 @@
 		{
 			x: -3.5d
 			y: 7.5d
-			description: ["My worst purchased knife."]
+			description: ["quest.chaptergroups.farm.1.11.description.11"]
 			dependencies: ["000000000000161E"]
 			id: "0000000000001620"
 			tasks: [{
@@ -1977,7 +1977,7 @@
 		{
 			x: -3.5d
 			y: 8.5d
-			description: ["This knife should never dull."]
+			description: ["{quest.chaptergroups.farm.1.11.description.12}"]
 			dependencies: ["0000000000001620"]
 			id: "0000000000001622"
 			tasks: [{
@@ -2013,7 +2013,7 @@
 		{
 			x: -3.5d
 			y: 9.5d
-			description: ["A fillet knife imbuded with the power of Neptune. It will never break and gives additional fillets per fish."]
+			description: ["{quest.chaptergroups.farm.1.11.description.13}"]
 			dependencies: ["0000000000001622"]
 			id: "0000000000001624"
 			tasks: [{
@@ -2037,7 +2037,7 @@
 		{
 			x: -1.0d
 			y: 7.5d
-			description: ["Plays a note when a fish is about to bite when applied to a rod."]
+			description: ["{quest.chaptergroups.farm.1.11.description.14}"]
 			dependencies: ["00000000000015E5"]
 			id: "0000000000001600"
 			tasks: [{
@@ -2060,7 +2060,7 @@
 		{
 			x: 2.5d
 			y: 9.5d
-			description: ["Incurs a 50% chance to not use durability when applied to a rod, as well as increase the rods luck."]
+			description: ["{quest.chaptergroups.farm.1.11.description.15}"]
 			dependencies: ["00000000000015E5"]
 			id: "0000000000001602"
 			tasks: [{
@@ -2081,10 +2081,10 @@
 			}]
 		}
 		{
-			title: "Bait"
+			title: "quest.chaptergroups.farm.1.12.title"
 			x: -1.0d
 			y: 5.5d
-			description: ["Worms are but a single bait that can be used with fishing rods. Their are also leeches and minnows that you catch by fishing."]
+			description: ["{quest.chaptergroups.farm.1.12.description.1}"]
 			dependencies: ["00000000000015E7"]
 			id: "00000000000015E9"
 			tasks: [{
@@ -2126,7 +2126,7 @@
 		{
 			x: 0.0d
 			y: 5.5d
-			description: ["The worm box works like the composter (load with vegetables or fruit) but it produces worms to use as bait."]
+			description: ["{quest.chaptergroups.farm.1.12.description.2}"]
 			dependencies: ["00000000000015DD"]
 			id: "00000000000015E7"
 			tasks: [{
@@ -2138,7 +2138,7 @@
 		{
 			x: 1.0d
 			y: 7.5d
-			description: ["Is placed on the ground with a rightclick. From there, you can access it's inventory where you can apply tackle to fishing rods on the right. The box also has storage slots to hold bait and tackle. To pickup the box again simply shift rightclick it."]
+			description: ["{quest.chaptergroups.farm.1.12.description.3}"]
 			dependencies: ["00000000000015DD"]
 			id: "00000000000015E5"
 			tasks: [{
@@ -2156,7 +2156,7 @@
 			x: 3.75d
 			y: 6.0d
 			shape: "gear"
-			description: ["I caught a chest..... wonder if it is anything valuable?"]
+			description: ["{quest.chaptergroups.farm.1.12.description.4}"]
 			dependencies: ["00000000000015DD"]
 			size: 1.5d
 			id: "00000000000015EB"
@@ -2181,7 +2181,7 @@
 		{
 			x: -0.5d
 			y: 6.5d
-			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
+			description: ["{quest.chaptergroups.farm.1.12.description.5}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F0"
 			tasks: [{
@@ -2204,7 +2204,7 @@
 		{
 			x: 2.5d
 			y: 6.5d
-			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
+			description: ["{quest.chaptergroups.farm.1.12.description.6}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F2"
 			tasks: [{
@@ -2227,7 +2227,7 @@
 		{
 			x: 3.0d
 			y: 7.5d
-			description: ["Incurs a 20% chance to not use durability when applied to a rod."]
+			description: ["{quest.chaptergroups.farm.1.12.description.7}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F4"
 			tasks: [{
@@ -2250,7 +2250,7 @@
 		{
 			x: 3.0d
 			y: 8.5d
-			description: ["Increases a rods luck when applied to a rod."]
+			description: ["{quest.chaptergroups.farm.1.12.description.8}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F6"
 			tasks: [{
@@ -2267,7 +2267,7 @@
 		{
 			x: 1.5d
 			y: 9.5d
-			description: ["Incurs a 50% chance to not use durability when applied to a rod."]
+			description: ["{quest.chaptergroups.farm.1.12.description.9}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F8"
 			tasks: [{
@@ -2290,7 +2290,7 @@
 		{
 			x: 0.5d
 			y: 9.5d
-			description: ["Allows a rod to cast further when applied to a rod."]
+			description: ["{quest.chaptergroups.farm.1.12.description.10}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015FA"
 			tasks: [{
@@ -2313,7 +2313,7 @@
 		{
 			x: -0.5d
 			y: 9.5d
-			description: ["Allows a chance to catch two things at once when applied to a rod."]
+			description: ["{quest.chaptergroups.farm.1.12.description.11}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015FC"
 			tasks: [{
@@ -2336,7 +2336,7 @@
 		{
 			x: -1.0d
 			y: 8.5d
-			description: ["Increases the amount of time allowed to reel in a fish when applied to a rod."]
+			description: ["{quest.chaptergroups.farm.1.12.description.12}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015FE"
 			tasks: [{
@@ -2359,7 +2359,7 @@
 		{
 			x: 2.0d
 			y: 4.5d
-			description: ["When you are the best fisherman around."]
+			description: ["{quest.chaptergroups.farm.1.12.description.13}"]
 			dependencies: ["00000000000015DD"]
 			id: "00000000000015DF"
 			tasks: [{
@@ -2382,7 +2382,7 @@
 		{
 			x: 3.0d
 			y: 4.5d
-			description: ["When you just want to blind the fish."]
+			description: ["{quest.chaptergroups.farm.1.12.description.14}"]
 			dependencies: ["00000000000015DF"]
 			id: "00000000000015E1"
 			tasks: [{
@@ -2424,7 +2424,7 @@
 		{
 			x: 4.0d
 			y: 4.5d
-			description: ["The best fishing rod around. Neptune's personal rod. Increases bite rate of fish."]
+			description: ["{quest.chaptergroups.farm.1.12.description.15}"]
 			dependencies: ["00000000000015E1"]
 			id: "00000000000015E3"
 			tasks: [{
@@ -4761,7 +4761,7 @@
 			x: 9.0d
 			y: 7.0d
 			shape: "octagon"
-			subtitle: "Gather every sapling from a dark forest or variants"
+			subtitle: "{quest.chaptergroups.farm.1.1.subtitle}"
 			id: "50DF8B73D579D418"
 			tasks: [{
 				id: "7AD36D05D2005754"
@@ -4797,7 +4797,7 @@
 			x: 10.0d
 			y: 7.0d
 			shape: "octagon"
-			subtitle: "Gather every sapling from a jungle or variants"
+			subtitle: "{quest.chaptergroups.farm.1.2.subtitle}"
 			id: "36157D5059479273"
 			tasks: [{
 				id: "2D168285828693E7"
@@ -4833,7 +4833,7 @@
 			x: 14.0d
 			y: 7.0d
 			shape: "octagon"
-			subtitle: "Gather every sapling from a plains or variants"
+			subtitle: "{quest.chaptergroups.farm.1.3.subtitle}"
 			id: "69A8C67963DBA7DA"
 			tasks: [{
 				id: "56D50FE62262E842"
@@ -4904,7 +4904,7 @@
 			x: 11.5d
 			y: 7.0d
 			shape: "octagon"
-			subtitle: "Gather every sapling from a Croptopia mod"
+			subtitle: "{quest.chaptergroups.farm.1.4.subtitle}"
 			size: 2.0d
 			id: "1D29CFDF2B56107B"
 			tasks: [{
@@ -4947,7 +4947,7 @@
 			x: 11.5d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "Gather every seed from a Croptopia mod"
+			subtitle: "{quest.chaptergroups.farm.1.5.subtitle}"
 			size: 2.0d
 			id: "0C881EDED56AD8E4"
 			tasks: [{

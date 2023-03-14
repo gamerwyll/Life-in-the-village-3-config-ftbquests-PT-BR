@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "getting_started"
-	title: "Getting Started"
+	title: "{quest.chaptergroups.getting_started.0.title}"
 	icon: {
 		id: "minecraft:stone_pickaxe"
 		Count: 1b
@@ -32,14 +32,14 @@
 			}]
 		}
 		{
-			title: "Punching Trees"
+			title: "{quest.chaptergroups.a_reliable_friend.0.1.title}"
 			x: -9.0d
 			y: 0.0d
 			id: "0000000000000008"
 			tasks: [{
 				id: "0000000000000009"
 				type: "item"
-				title: "Any minecraft:logs"
+				title: "{quest.any} minecraft:logs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -92,10 +92,10 @@
 			]
 		}
 		{
-			title: "Craft basic infrastructure"
+			title: "{quest.chaptergroups.a_reliable_friend.0.2.title}"
 			x: 1.5d
 			y: 0.0d
-			subtitle: "Make yourself at home!"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.0.2.subtitle}"
 			dependencies: ["6CC45B856CF1EC09"]
 			id: "0000000000000011"
 			tasks: [{
@@ -119,13 +119,13 @@
 			]
 		}
 		{
-			title: "It's a box!"
+			title: "{quest.chaptergroups.a_reliable_friend.0.3.title}"
 			x: 1.5d
 			y: -2.0d
 			description: [
-				"There are a lot of decorations available to decorate your humble home."
+				"{quest.chaptergroups.getting_started.0.3.description.1}"
 				""
-				"You can search in JEI by mod:"
+				"{quest.chaptergroups.getting_started.0.3.description.2}"
 				"- @Macaw"
 				"- @Builder"
 				"- @furniture"
@@ -136,7 +136,7 @@
 			tasks: [{
 				id: "0000000000000014"
 				type: "item"
-				title: "Any forge:chests"
+				title: "{quest.any} forge:chests"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -163,9 +163,9 @@
 			x: -9.0d
 			y: 1.5d
 			description: [
-				"You can craft a new quest book with a book and stone."
+				"{quest.chaptergroups.getting_started.0.5.description.1}"
 				""
-				"But, better to just not lose it :)"
+				"{quest.chaptergroups.getting_started.0.5.description.2}"
 			]
 			dependencies: ["0000000000000008"]
 			id: "0000000000000015"
@@ -181,7 +181,7 @@
 			}]
 		}
 		{
-			title: "Bed Time"
+			title: "{quest.chaptergroups.getting_started.0.6.title}"
 			x: 0.5d
 			y: 1.0d
 			dependencies: ["0000000000000011"]
@@ -243,13 +243,13 @@
 		{
 			x: -6.0d
 			y: -1.5d
-			subtitle: "How to use JEI(that thing with items on the RIGHT)"
+			subtitle: "{quest.chaptergroups.getting_started.0.7.subtitle}"
 			description: [
-				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that items recipe."
-				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids. "
-				"• To search by mod name use the \"@\" key before search in search box."
-				"• To select the search box without clicking on it, the player can press Ctrl + F."
-				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
+				"{quest.chaptergroups.getting_started.0.7.description.1}"
+				"{quest.chaptergroups.getting_started.0.7.description.2}"
+				"{quest.chaptergroups.getting_started.0.7.description.3}"
+				"{quest.chaptergroups.getting_started.0.7.description.4}"
+				"{quest.chaptergroups.getting_started.0.7.description.5}"
 				""
 			]
 			dependencies: ["33886A5EFC27C3B4"]
@@ -367,7 +367,7 @@
 			]
 		}
 		{
-			title: "Time to hunt"
+			title: "{quest.chaptergroups.getting_started.0.8.title}"
 			x: -3.0d
 			y: -2.0d
 			dependencies: ["54A2FF358B113724"]
@@ -512,9 +512,9 @@
 			x: 7.0d
 			y: 2.5d
 			description: [
-				"A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths."
+				"{quest.chaptergroups.getting_started.0.9.description.1}"
 				""
-				"A Trowel will break after placing 256 blocks, or four stacks."
+				"{quest.chaptergroups.getting_started.0.9.description.2}"
 			]
 			dependencies: ["000000000000003F"]
 			id: "0000000000000063"
@@ -652,7 +652,7 @@
 			]
 		}
 		{
-			title: "Portal Time!"
+			title: "{quest.chaptergroups.getting_started.0.10.title}"
 			x: 14.0d
 			y: 0.0d
 			dependencies: ["0000000000000045"]
@@ -881,7 +881,7 @@
 			]
 		}
 		{
-			title: "See you in Hell!"
+			title: "{quest.chaptergroups.getting_started.0.11.title}"
 			x: 16.5d
 			y: 0.0d
 			shape: "octagon"
@@ -902,7 +902,7 @@
 			}]
 		}
 		{
-			title: "This is the End....."
+			title: ""
 			x: 21.0d
 			y: 2.0d
 			shape: "hexagon"
@@ -931,7 +931,7 @@
 			]
 		}
 		{
-			title: "Farming Bob"
+			title: "{quest.chaptergroups.getting_started.0.13.title}"
 			x: 1.5d
 			y: 2.0d
 			dependencies: ["0000000000000011"]
@@ -1003,7 +1003,7 @@
 			]
 		}
 		{
-			title: "Iron Armor"
+			title: "{quest.chaptergroups.getting_started.0.14.title}"
 			x: 5.0d
 			y: -3.0d
 			dependencies: ["000000000000003F"]
@@ -1275,7 +1275,7 @@
 			]
 		}
 		{
-			title: "Diamond Armor"
+			title: "{quest.chaptergroups.getting_started.0.15.title}"
 			x: 9.5d
 			y: -1.5d
 			description: [""]
@@ -1407,15 +1407,15 @@
 			x: -7.5d
 			y: -1.5d
 			description: [
-				"Quests come in a number of different types in this pack."
+				"{quest.chaptergroups.getting_started.0.16.description.1}"
 				""
-				"You can have quests for simply traveling to a destination or by traveling a certain number of blocks."
+				"{quest.chaptergroups.getting_started.0.16.description.2}"
 				""
-				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
+				"{quest.chaptergroups.getting_started.0.16.description.3}"
 				""
-				"The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :])."
+				"{quest.chaptergroups.getting_started.0.16.description.4}"
 				""
-				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+				"{quest.chaptergroups.getting_started.0.16.description.5}"
 			]
 			dependencies: ["0000000000000008"]
 			id: "33886A5EFC27C3B4"
@@ -1435,14 +1435,14 @@
 			x: -7.5d
 			y: 1.5d
 			description: [
-				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest."
-				"You can always come back here to read them again."
+				"{quest.chaptergroups.getting_started.0.17.description.1}"
+				"{quest.chaptergroups.getting_started.0.17.description.2}"
 				""
-				"- Gain variable benefits for eating a greater variety of foods."
-				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
-				"- additional enchanting mechanics that will allow you to level up your enchantments higher than the vanilla limit(with items)"
-				"- jobs with each unique feature;"
-				"- new Lunar Events: Blood, Blue, and Harvest Moons;"
+				"{quest.chaptergroups.getting_started.0.17.description.3}"
+				"{quest.chaptergroups.getting_started.0.17.description.4}"
+				"{quest.chaptergroups.getting_started.0.17.description.5}"
+				"{quest.chaptergroups.getting_started.0.17.description.6}"
+				"{quest.chaptergroups.getting_started.0.17.description.7}"
 			]
 			dependencies: ["0000000000000008"]
 			id: "50AFC676130E87C4"
@@ -1468,29 +1468,29 @@
 			}
 			x: -6.0d
 			y: 1.5d
-			subtitle: "Ore Excavation/Veinminer Alternative"
+			subtitle: "{quest.chaptergroups.getting_started.0.18.subtitle}"
 			description: [
-				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key)."
+				"{quest.chaptergroups.getting_started.0.18.description.1}"
 				""
-				"- Renders white lines around blocks that will be mined."
-				"- You can also use hoe on grass in similar way to till multiple blocks at once"
-				"- Harvest crops by right-clicking on them"
+				"{quest.chaptergroups.getting_started.0.18.description.2}"
+				"{quest.chaptergroups.getting_started.0.18.description.3}"
+				"{quest.chaptergroups.getting_started.0.18.description.4}"
 				""
-				"Select a shape by holding shift and the grave key while scrolling the mouse scroll wheel. "
-				"- Shapeless: No shape applied."
-				"- Small Tunnel: A 1x1 deep tunnel."
-				"- Small Square: A 3x3x1. (Depth of one. If you want a long 3x3 tunnel, you are probably better off digging 9 separate small tunnels.) "
-				"- Mining Tunnel: A 1x1 tunnel angled down. (You will need at least 3 of these to form stairs you can walk down.)"
-				"- Escape Tunnel: Same as the mining tunnel, but upward."
+				"{quest.chaptergroups.getting_started.0.18.description.5}"
+				"{quest.chaptergroups.getting_started.0.18.description.6}"
+				"{quest.chaptergroups.getting_started.0.18.description.7}"
+				"{quest.chaptergroups.getting_started.0.18.description.8}"
+				"{quest.chaptergroups.getting_started.0.18.description.9}"
+				"{quest.chaptergroups.getting_started.0.18.description.10}"
 				""
-				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
+				"{quest.chaptergroups.getting_started.0.18.description.11}"
 			]
 			dependencies: ["50AFC676130E87C4"]
 			id: "72BFE0836C00EDB8"
 			tasks: [{
 				id: "6CE4CBD49CC0573A"
 				type: "checkmark"
-				title: "FTB Ultimine"
+				title: "{quest.chaptergroups.getting_started.0.19.title}"
 				icon: {
 					id: "gemsnjewels:solid_black_opal_pickaxe"
 					Count: 1b
@@ -1508,24 +1508,24 @@
 		{
 			x: -6.5d
 			y: 2.5d
-			subtitle: "Benefis for eating different food!"
+			subtitle: ""
 			description: [
-				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
+				"{quest.chaptergroups.getting_started.0.20.description.1}"
 				""
-				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past."
+				"{quest.chaptergroups.getting_started.0.20.description.2}"
 				""
-				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition)."
+				"{quest.chaptergroups.getting_started.0.20.description.3}"
 				""
-				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet."
-				"Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits."
-				"To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet."
+				"{quest.chaptergroups.getting_started.0.20.description.4}"
+				"{quest.chaptergroups.getting_started.0.20.description.5}"
+				"{quest.chaptergroups.getting_started.0.20.description.6}"
 			]
 			dependencies: ["50AFC676130E87C4"]
 			id: "1D857C5D4DF99256"
 			tasks: [{
 				id: "63EF8646E409CD6E"
 				type: "checkmark"
-				title: "Spice Of Life: Potato Edition"
+				title: "{quest.chaptergroups.getting_started.0.21.title}"
 				icon: "minecraft:potato"
 			}]
 			rewards: [{
@@ -1624,7 +1624,7 @@
 			x: 8.25d
 			y: -2.25d
 			shape: "gear"
-			subtitle: "Visit 'Not Enough Food' chapter to find more about cooking possibilities"
+			subtitle: "{quest.chaptergroups.getting_started.0.22.subtitle}"
 			dependencies: ["000000000000003F"]
 			size: 1.5d
 			id: "09DCF997E89A3D37"
@@ -1677,7 +1677,7 @@
 		{
 			x: 7.0d
 			y: 4.0d
-			subtitle: "Unlock trades when a villager has them blocked (red X).  Also used as crafting material in many items"
+			subtitle: "{quest.chaptergroups.getting_started.0.23.subtitle}"
 			dependencies: ["000000000000004C"]
 			id: "37D53E78124BF341"
 			tasks: [{
@@ -1694,7 +1694,7 @@
 		{
 			x: 6.5d
 			y: 6.0d
-			subtitle: "Upgrade your Iron Golems.  New versions are upgraded and will never attack players even when hit"
+			subtitle: "{quest.chaptergroups.getting_started.0.24.subtitle}"
 			dependencies: ["37D53E78124BF341"]
 			id: "53D5C55000A4B304"
 			tasks: [{
@@ -1735,7 +1735,7 @@
 		{
 			x: 5.5d
 			y: 6.0d
-			subtitle: "Convert pillagers into Town Guards to fight and defend against raids"
+			subtitle: "{quest.chaptergroups.getting_started.0.25.subtitle}"
 			dependencies: ["37D53E78124BF341"]
 			id: "0F59F88E3816010E"
 			tasks: [{
@@ -1776,7 +1776,7 @@
 		{
 			x: 5.5d
 			y: 4.0d
-			subtitle: "Summons Pillagers on use"
+			subtitle: "{quest.chaptergroups.getting_started.0.26.subtitle}"
 			dependencies: ["37D53E78124BF341"]
 			id: "570C60946BBFD8FA"
 			tasks: [{
@@ -1817,7 +1817,7 @@
 		{
 			x: 5.5d
 			y: 5.0d
-			subtitle: "Corrupt villagers and traders into Pillagers, and can make some illagers even more powerful"
+			subtitle: "{quest.chaptergroups.getting_started.0.27.subtitle}"
 			dependencies: ["37D53E78124BF341"]
 			id: "10519DA5BB326464"
 			tasks: [{
@@ -1858,7 +1858,7 @@
 		{
 			x: 7.5d
 			y: 6.0d
-			subtitle: "Instantly levels up their profession level without doing any trades"
+			subtitle: "{quest.chaptergroups.getting_started.0.28.subtitle}"
 			dependencies: ["37D53E78124BF341"]
 			id: "19DE307EB80ECBDD"
 			tasks: [{
@@ -1899,7 +1899,7 @@
 		{
 			x: 8.25d
 			y: 4.0d
-			subtitle: "Convert a Wandering Trader into a villager"
+			subtitle: "{quest.chaptergroups.getting_started.0.29.subtitle}"
 			dependencies: ["000000000000004C"]
 			id: "198CC8D9E11D3EE4"
 			tasks: [{
@@ -1929,7 +1929,7 @@
 		{
 			x: 8.25d
 			y: 5.0d
-			subtitle: "Free Wandering Trader llamas from captivity, converting them to normal"
+			subtitle: "{quest.chaptergroups.getting_started.0.30.subtitle}"
 			dependencies: ["198CC8D9E11D3EE4"]
 			id: "38B57EE3DE006632"
 			tasks: [{
@@ -2073,8 +2073,8 @@
 		{
 			x: -9.0d
 			y: 2.5d
-			subtitle: "You can craft a new quest book with a book and stone."
-			description: ["But, better to just not lose it :)"]
+			subtitle: "{quest.chaptergroups.getting_started.0.31.subtitle}"
+			description: ["quest.chaptergroups.getting_started.0.31.description.1"]
 			id: "70EE00F2D166500E"
 			tasks: [{
 				id: "51A7BB84F95A8A07"
@@ -2162,14 +2162,14 @@
 		{
 			x: -0.5d
 			y: -2.0d
-			subtitle: "Head over to the Storage Solutions chapter to learn more!"
-			description: ["Full-size 1x1 storage drawers will store 32 stacks of an item."]
+			subtitle: "quest.chaptergroups.getting_started.0.32.subtitle"
+			description: ["quest.chaptergroups.getting_started.0.32.description.1"]
 			dependencies: ["0000000000000013"]
 			id: "0994B5C8D2761BEA"
 			tasks: [{
 				id: "0498B4CE87823DEF"
 				type: "item"
-				title: "Full Storage Drawer: Single Item"
+				title: "{quest.chaptergroups.getting_started.0.32.title.1}"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -2219,7 +2219,7 @@
 		{
 			x: 0.5d
 			y: -3.0d
-			subtitle: "Head over to Deco Madness chapter to find more about decorations!"
+			subtitle: "{quest.chaptergroups.getting_started.0.33.subtitle}"
 			dependencies: ["0000000000000013"]
 			id: "548306049450AFD7"
 			tasks: [{
@@ -2244,7 +2244,7 @@
 			x: 4.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Visit 'Storage Solutions' chapter to find more about storage possibilities"
+			subtitle: "{quest.chaptergroups.getting_started.0.34.subtitle}"
 			dependencies: [
 				"0000000000000013"
 				"000000000000003F"
@@ -2299,7 +2299,7 @@
 			]
 		}
 		{
-			title: "Humble adobe"
+			title: "{quest.chaptergroups.getting_started.0.35.title}"
 			x: 1.5d
 			y: -4.0d
 			dependencies: ["0391CE59C81DC08E"]
@@ -2448,7 +2448,7 @@
 			x: 4.0d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "Visit 'Deco madness' chapter to find more about decoration possibilities"
+			subtitle: "{quest.chaptergroups.getting_started.0.36.subtitle}"
 			dependencies: ["000000000000003F"]
 			size: 1.5d
 			id: "4C2D0A5BC84EEDD2"
@@ -2507,7 +2507,7 @@
 			x: -0.75d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "Head over to Tinkers Workshop chapter to learn more about tools creation!"
+			subtitle: "{quest.chaptergroups.getting_started.0.37.subtitle}"
 			dependencies: ["54A2FF358B113724"]
 			size: 1.5d
 			id: "6CC45B856CF1EC09"
@@ -2584,7 +2584,7 @@
 		{
 			x: 9.5d
 			y: 4.0d
-			subtitle: "Make your first villager trade"
+			subtitle: "{quest.chaptergroups.getting_started.0.38.subtitle}"
 			dependencies: ["000000000000004C"]
 			id: "031D29EEE7B5A5A7"
 			tasks: [{
@@ -2602,7 +2602,7 @@
 		{
 			x: 11.0d
 			y: 4.0d
-			subtitle: "Trade with the Enderologist in the End dimension"
+			subtitle: "{quest.chaptergroups.getting_started.0.39.subtitle}"
 			dependencies: ["031D29EEE7B5A5A7"]
 			id: "5972F6732B417E5B"
 			tasks: [{
@@ -2633,7 +2633,7 @@
 		{
 			x: 11.0d
 			y: 5.0d
-			subtitle: "Trade with every villager profession"
+			subtitle: "{quest.chaptergroups.getting_started.0.40.subtitle}"
 			dependencies: ["031D29EEE7B5A5A7"]
 			id: "316DC9354D3FD56C"
 			tasks: [{
@@ -2669,7 +2669,7 @@
 		{
 			x: 9.5d
 			y: 6.0d
-			subtitle: "Trade with the Netherologist in the Nether dimension"
+			subtitle: "{quest.chaptergroups.getting_started.0.41.subtitle}"
 			dependencies: ["031D29EEE7B5A5A7"]
 			id: "6DA54AD3576429BD"
 			tasks: [{
@@ -2701,7 +2701,7 @@
 		{
 			x: 10.5d
 			y: 6.0d
-			subtitle: "Buy an Explorer Map from a villager"
+			subtitle: "{quest.chaptergroups.getting_started.0.42.subtitle}"
 			dependencies: ["031D29EEE7B5A5A7"]
 			id: "23603228F580DDEE"
 			tasks: [{
@@ -2739,7 +2739,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
-			subtitle: "Weaken and then cure the zombie villager"
+			subtitle: "{quest.chaptergroups.getting_started.0.43.subtitle}"
 			dependencies: ["1B9C56662359E335"]
 			id: "61B3C7722CE2E9F4"
 			tasks: [{
@@ -2764,7 +2764,7 @@
 		{
 			x: -2.0d
 			y: -1.0d
-			description: ["While progressing through the quest book you will gain coins which can be traded for different valuable items in dedicated chapter"]
+			description: ["{quest.chaptergroups.getting_started.0.44.description.1}"]
 			dependencies: ["54A2FF358B113724"]
 			size: 0.7d
 			id: "1132350866F5AC7A"

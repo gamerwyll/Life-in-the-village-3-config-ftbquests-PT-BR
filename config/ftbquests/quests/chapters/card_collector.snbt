@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 5
 	filename: "card_collector"
-	title: "Card Collector"
+	title: "{quest.chaptergroups.a_reliable_friend.5.title}"
 	icon: "buddycards:buddycard_pack_mystery"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -17,7 +17,7 @@
 			tasks: [{
 				id: "63F71BD54B506EE2"
 				type: "item"
-				title: "Any #buddycards:buddycard_packs"
+				title: "{quest.chaptergroups.a_reliable_friend.5.1.title} #buddycards:buddycard_packs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

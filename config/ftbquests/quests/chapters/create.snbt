@@ -3,7 +3,7 @@
 	group: "4BB8DCEF290E19CA"
 	order_index: 1
 	filename: "create"
-	title: "Machinery"
+	title: "{quest.chaptergroups.a_reliable_friend.1.title}"
 	icon: "create:flywheel"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -109,13 +109,13 @@
 		{
 			x: -1.0d
 			y: -1.0d
-			subtitle: "Welcome to Create!"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.1.1.subtitle}"
 			description: [
-				"I'll be your short and basic guide in a beautiful world of Create!"
+				"{quest.chaptergroups.a_reliable_friend.1.1.description.1}"
 				""
-				"You can also always check Youtube for more detailed visual walkthroughs. (you will definitely will do that)"
+				"{quest.chaptergroups.a_reliable_friend.1.1.description.2}"
 				""
-				"Now let's create your first machinery"
+				"{quest.chaptergroups.a_reliable_friend.1.1.description.3}"
 			]
 			id: "6D677805996BDA93"
 			tasks: [{
@@ -133,13 +133,13 @@
 			icon: "create:goggles"
 			x: -1.0d
 			y: 0.5d
-			subtitle: "Check it out right now. It's awesome I promise!"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.1.2.subtitle}"
 			description: [
-				"Pondering is an in-game guide system that allows the player to quickly get information about Create blocks."
+				"{quest.chaptergroups.a_reliable_friend.1.2.description.1}"
 				""
-				"An item can be Pondered by hovering over it and holding \"W\" until the bar below the item is filled up. This displays an animated infographic about the item being pondered."
+				"{quest.chaptergroups.a_reliable_friend.1.2.description.2}"
 				""
-				"The full Ponder Index can be accessed through the Create menu by clicking the Engineer's Goggles icon in the pause menu."
+				"{quest.chaptergroups.a_reliable_friend.1.2.description.3}"
 				""
 				""
 			]
@@ -168,11 +168,11 @@
 			x: 2.5d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "Hover over this block in your inventory and hold 'W' to see how it works and how to assemble it correctly"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.1.3.subtitle}"
 			description: [
 				""
 				""
-				"One of the more basic generators is called the Water Wheel. This concept should sound familiar, especially to people that have been playing modded minecraft for a bit. To get it spinning, all you have to do is get some water flowing around it. Pay attention the direction the water is flowing though, as it will spin at only half the rate when water flows in the wrong direction."
+				"{quest.chaptergroups.a_reliable_friend.1.3.description.1}"
 			]
 			dependencies: ["2C1C0E127A96B892"]
 			size: 2.0d
@@ -205,11 +205,11 @@
 			x: 0.5d
 			y: -1.0d
 			description: [
-				"While cogwheels can be used as fancy looking shafts, their main use is a little different. They will relay rotation sideways to other cogwheels while keeping the axis of rotation. Directly adjacent cogwheels will also reverse the direction of rotation."
+				"{quest.chaptergroups.a_reliable_friend.1.3.description.1}"
 				""
-				"When mixing large and small cogwheel the speed of rotation will also change"
+				"{quest.chaptergroups.a_reliable_friend.1.3.description.2}"
 				""
-				"Two large cogwheels at an 90° Angle allow for the axis of rotation to be changed."
+				"{quest.chaptergroups.a_reliable_friend.1.3.description.3}"
 			]
 			dependencies: ["6D677805996BDA93"]
 			id: "2C1C0E127A96B892"
@@ -273,9 +273,9 @@
 			x: 2.5d
 			y: 1.0d
 			description: [
-				"The most basic and cheapest way of transferring rotational force is the shaft. This will relay rotation in a straight line to all connected shafts."
+				"{quest.chaptergroups.a_reliable_friend.1.5.description.1}"
 				""
-				"Shafts also come in a encased variant, they have the same functionality, just look a bit different"
+				"{quest.chaptergroups.a_reliable_friend.1.5.description.1}"
 			]
 			dependencies: ["1D71C57E9B52C64D"]
 			id: "3770B7298AFF38A4"
@@ -382,13 +382,13 @@
 			x: 3.5d
 			y: -2.1d
 			description: [
-				"A lot of Create's machines need to be powered to operate. This power can be called rotational force or just Rotation."
+				"{quest.chaptergroups.a_reliable_friend.1.6.description.1}"
 				""
-				"There are a couple different components that can create this rotational force in one way or another, they are called Generators. Just generation alone won't get you very far though, it still has to be relayed to the desired machines."
+				"{quest.chaptergroups.a_reliable_friend.1.6.description.2}"
 				""
-				"There is a variety of different blocks in Create that can achieve just that. Best is play around with each component to familiarize yourself with its abilities. It is important to know the options when having to deal with complex connection tasks in a potentially less forgiving environment."
+				"{quest.chaptergroups.a_reliable_friend.1.6.description.3}"
 				""
-				"Multiple generators can be connected together in order achieve a greater Capacity score for the attached kinetic network. When attaching new generators to running components, it is important that the added generator rotates in the same direction as the component it is attached to. When connecting two kinetic blocks with incompatible direction of rotation, you'll notice that the blocks just break. However, trouble-shooting this will be quite straight-forward - all you need to do is to include a means of reversing the rotation between the generator and the rest"
+				"{quest.chaptergroups.a_reliable_friend.1.6.description.4}"
 			]
 			dependencies: ["1D71C57E9B52C64D"]
 			size: 0.7d
@@ -396,7 +396,7 @@
 			tasks: [{
 				id: "4A48BF7733075FF8"
 				type: "checkmark"
-				title: "Generate and Convey"
+				title: "{quest.chaptergroups.a_reliable_friend.1.6.title}"
 			}]
 			rewards: [{
 				id: "467F5037CE0FD8B2"
@@ -477,7 +477,7 @@
 		{
 			x: 4.5d
 			y: 2.5d
-			description: ["The gearbox is a simple block that relays rotation between 4 of its faces while reversing straight connections."]
+			description: ["{quest.chaptergroups.a_reliable_friend.1.7.description.1}"]
 			dependencies: ["67D26DEF0E563519"]
 			id: "3483F642D8F5D294"
 			tasks: [
@@ -640,15 +640,15 @@
 			]
 		}
 		{
-			title: "Belts"
+			title: "{quest.chaptergroups.a_reliable_friend.1.8.title}"
 			x: 7.5d
 			y: 4.5d
 			description: [
-				"To place down belts you will need 2 shafts facing in the same direction. They can be placed in 3 orientations, horizontal, vertical or diagonal at an 45° angle"
+				"{quest.chaptergroups.a_reliable_friend.1.8.description.1}"
 				""
-				"Click on the first shaft and you will see some particle effects to where you are looking. When looking at a valid second shaft, these particles will turn green. Once you got a belt in place, it will relay rotation between the two shafts while keeping rotation and speed the same."
+				"{quest.chaptergroups.a_reliable_friend.1.8.description.2}"
 				""
-				"You can also click a shaft onto any piece of a belt to insert an additional pulley that you can connect components to."
+				"{quest.chaptergroups.a_reliable_friend.1.8.description.3}"
 			]
 			dependencies: ["540B55BEFF0879E3"]
 			id: "07980ABDC8986709"

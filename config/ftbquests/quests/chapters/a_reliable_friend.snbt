@@ -9,15 +9,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "quest.chaptergroups.a_reliable_friend.4.title"
+			title: "{quest.chaptergroups.a_reliable_friend.4.1.title}"
 			x: -3.0d
 			y: -2.5d
 			description: [
-				"{quest.chaptergroups.step1}"
+				"{quest.step1}"
 				"{quest.chaptergroups.a_reliable_friend.4.1.description.1}"
-				"{quest.chaptergroups.step2}"
+				"{quest.step2}"
 				"{quest.chaptergroups.a_reliable_friend.4.1.description.2}"
-				"{quest.chaptergroups.step3}"
+				"{quest.step3}"
 				"{quest.chaptergroups.a_reliable_friend.4.1.description.3}"
 			]
 			size: 1.5d
