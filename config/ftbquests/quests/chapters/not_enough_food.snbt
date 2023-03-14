@@ -3,7 +3,7 @@
 	group: "46433AE7955AB640"
 	order_index: 0
 	filename: "not_enough_food"
-	title: "Not Enough Food"
+	title: "{quest.chaptergroups.not_enough_food.0.title}"
 	icon: "farmersdelight:cooking_pot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -224,16 +224,16 @@
 			x: 2.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
+			subtitle: "{quest.chaptergroups.not_enough_food.0.1.subtitle}"
 			description: [
 				""
-				"- Any animals you slay using a Knife are guaranteed to drop secondary items, such as Leather and Feathers;"
+				"{quest.chaptergroups.not_enough_food.0.1.description.1}"
 				""
-				"- Grassy plants (grass, wheat, rice etc) cut with a Knife will occasionally yield Straw, a firm and useful fiber;"
+				"{quest.chaptergroups.not_enough_food.0.1.description.2}"
 				""
-				"- They act as a modest melee weapon: swings faster than a sword for lesser damage;"
+				"{quest.chaptergroups.not_enough_food.0.1.description.3}"
 				""
-				"- Later on, they are also useful for cutting and portioning ingredients when preparing meals."
+				"{quest.chaptergroups.not_enough_food.0.1.description.4}"
 			]
 			size: 1.5d
 			id: "06FCFD49B9DC5C59"
@@ -287,13 +287,13 @@
 			y: -4.0d
 			shape: "hexagon"
 			description: [
-				"The Stove is a direct upgrade to the Campfire's cooking features, and a suitable heat source for the Cooking Pot."
+				"{quest.chaptergroups.not_enough_food.0.2.description.1}"
 				""
-				"To add items to its grill, simply right-click the Stove when it has no objects blocking its top face. Stoves detect campfire recipes to cook, meaning they usually also take 30 seconds to fully prepare items. Stoves cannot be automated through item transferring blocks (e.g. Hoppers), but require no fuel to cook items, much like a Campfire."
+				"{quest.chaptergroups.not_enough_food.0.2.description.2}"
 				""
-				"Stoves can hold six (6) items on its grill, and will gently pop cooked outputs above its surface, instead of throwing them around."
+				"{quest.chaptergroups.not_enough_food.0.2.description.3}"
 				""
-				"Stoves can be put out using shovels or buckets of water, and reignited with Flint and Steel."
+				"{quest.chaptergroups.not_enough_food.0.2.description.4}"
 			]
 			dependencies: ["32D6083223BDCD90"]
 			id: "19A4385584636C45"
@@ -323,7 +323,7 @@
 		{
 			x: 7.0d
 			y: 0.5d
-			description: ["When consumed, it will remove a single random negative effect from the player, keeping positive ones untouched. This provides a simple use for Cocoa Beans in difficult, risky trips."]
+			description: ["{quest.chaptergroups.not_enough_food.0.3.description.1}"]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "55AF1779E7AE28A7"
 			tasks: [{
@@ -341,11 +341,11 @@
 			x: 8.0d
 			y: -4.0d
 			shape: "hexagon"
-			subtitle: "The Cutting Board is a workstation where players can break down one item into many outputs, by using a valid tool on it."
+			subtitle: "{quest.chaptergroups.not_enough_food.0.4.subtitle}"
 			description: [
-				"Items can be placed on the Cutting Board by using them on it. It always prefers receiving items from the off-hand, allowing players to hold their ingredients there while holding the tool in their main hand, processing the stack simply by holding the use button."
+				"{quest.chaptergroups.not_enough_food.0.4.description.1}"
 				""
-				"When the correct tool is used on a valid item, it will be broken down into 1-4 different outputs, which are swiped sideways. Outputs always fly to the direction opposite to the Cutting Board's handle, allowing them to be collected by an item-capturing block, such as a Hopper or Basket. The tool receives 1 point of damage for each processed item."
+				"{quest.chaptergroups.not_enough_food.0.4.description.2}"
 			]
 			dependencies: ["19A4385584636C45"]
 			id: "2FEC85DD348C7C1C"
@@ -391,7 +391,7 @@
 		{
 			x: 8.5d
 			y: -3.0d
-			description: ["This combination allows your mount to be a lot more agile during travels. Since mounts eat a large volume of feed, the item does not need to be contained in a Bowl, saving some inventory space."]
+			description: ["{quest.chaptergroups.not_enough_food.0.5.description.1}"]
 			dependencies: ["604569BC4764E258"]
 			id: "31E7C56ABBA6A7B2"
 			tasks: [{
@@ -408,7 +408,7 @@
 		{
 			x: 9.5d
 			y: -2.5d
-			description: ["This combination allows wolves to catch up a lot more easily with you or nimble opponents, as well as last longer in battle."]
+			description: ["{quest.chaptergroups.not_enough_food.0.6.description.1}"]
 			dependencies: ["604569BC4764E258"]
 			id: "3693C3F67BD59401"
 			tasks: [{
@@ -425,18 +425,18 @@
 		{
 			x: 9.0d
 			y: -0.5d
-			subtitle: "Feasts are very large meals, which can be placed as a block to provide multiple servings to players."
+			subtitle: "{quest.chaptergroups.not_enough_food.0.7.subtitle}"
 			description: [
-				"Feasts are not edible directly as an item; they must be placed down as a block first. When placed, players can use (right-click) them with Bowls to serve themselves with a consumable portion."
+				"{quest.chaptergroups.not_enough_food.0.7.description.1}"
 				""
-				"The existing feasts in Farmer's Delight provide 4 servings in total. Plated feasts will also leave behind leftovers in the form of a dirty plate; right-clicking or mining it will retrieve the original Bowl, and any bones or food scraps left behind."
+				"{quest.chaptergroups.not_enough_food.0.7.description.2}"
 			]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "619A52669514E850"
 			tasks: [{
 				id: "251874AE085FBC47"
 				type: "checkmark"
-				title: "Feasts"
+				title: "{quest.chaptergroups.not_enough_food.0.7.title.1}"
 			}]
 			rewards: [{
 				id: "4D3E45D3809A8E8A"
@@ -513,11 +513,11 @@
 			y: -1.0d
 			shape: "hexagon"
 			description: [
-				"The Cooking Pot is a workstation where you can both prepare and store a large amount of meals. When placed above any suitable heat source (campfire, open flames, lava, a stove etc.), it will start bubbling, indicating it's ready to cook."
+				"{quest.chaptergroups.not_enough_food.0.8.description.1}"
 				""
-				"You can put up to six ingredients inside a pot. If they match, the pot will start cooking them up into a meal. Most meals need a container to be served on, such as Bowls; the result slot will tell you which one to use. Simply add the container on the corresponding slot, or right-click the pot with it, to take a serving!"
+				"{quest.chaptergroups.not_enough_food.0.8.description.2}"
 				""
-				"Meals tend to be quite large, so they don't stack up as high in your inventory. If you're not going to eat them all right away, you can just mine the whole pot and take it with you! Cooking Pots can hold 64 servings of any meal with a container, regardless of their maximum stack limit."
+				"{quest.chaptergroups.not_enough_food.0.8.description.3}"
 			]
 			dependencies: ["32D6083223BDCD90"]
 			id: "18F8DADD01FEC9C2"
@@ -616,7 +616,7 @@
 			x: 2.5d
 			y: 4.0d
 			description: [
-				"Using a Knife on grassy plants will yield Straw, a useful building and composting material. Early on, it's best used to craft some Ropes."
+				"{quest.chaptergroups.not_enough_food.0.9.description.1}"
 				""
 			]
 			dependencies: ["06FCFD49B9DC5C59"]
@@ -636,17 +636,17 @@
 			x: 5.0d
 			y: 4.0d
 			description: [
-				"Rich Soil is an enhanced type of dirt, more fertile and durable to the elements."
+				"{quest.chaptergroups.not_enough_food.0.10.description.1}"
 				""
-				"Rich Soil cannot be directly crafted. To make it, you must craft Organic Compost and place it into the world, letting it decompose over time."
+				"{quest.chaptergroups.not_enough_food.0.10.description.2}"
 				""
-				"Organic Compost will decompose more easily under sunlight and moisture from nearby water, but doesn't actually hydrate like farmland. It can also be gently accelerated by placing activators next to it, in a 3x3x3 area centered on itself."
+				"{quest.chaptergroups.not_enough_food.0.10.description.3}"
 				""
-				"Currently, the following blocks behave as activators for Organic Compost:"
-				"- Brown and Red Mushrooms, and their Colonies;"
-				"- Podzol and Mycelium;"
-				"- Other blocks of Organic Compost;"
-				"- Rich Soil, normal or tilled."
+				"{quest.chaptergroups.not_enough_food.0.10.description.4}"
+				"{quest.chaptergroups.not_enough_food.0.10.description.5}"
+				"{quest.chaptergroups.not_enough_food.0.10.description.6}"
+				"{quest.chaptergroups.not_enough_food.0.10.description.7}"
+				"{quest.chaptergroups.not_enough_food.0.10.description.8}"
 			]
 			dependencies: ["447D1005B0881D70"]
 			id: "56D3BC7D09F900CA"
@@ -665,11 +665,11 @@
 			x: 4.5d
 			y: 5.0d
 			description: [
-				"Ropes are essentially reverse scaffolding: the can be continuously deployed downward from the same spot, and can be climbed without collision. This allows players to safely descend or ascend high altitudes, such as ravines or mountains."
+				"{quest.chaptergroups.not_enough_food.0.11.description.1}"
 				""
-				"When placing Rope, you can use more ropes against the first one to deploy them downward. This will continuously extend a column of rope down to the bottom-most Y-level possible, allowing for easy and controllable descents into chasms, ravines or from high locations."
+				"{quest.chaptergroups.not_enough_food.0.11.description.2}"
 				""
-				"To suppress rope deployment, simply sneak while placing it. If there's no space underneath to deploy, it will also place normally."
+				"{quest.chaptergroups.not_enough_food.0.11.description.3}"
 			]
 			dependencies: ["447D1005B0881D70"]
 			id: "27E4CBB51DBD27CD"
@@ -687,7 +687,7 @@
 		{
 			x: 6.5d
 			y: 5.0d
-			description: ["Fully absorbs your fall without dealing damage."]
+			description: ["{quest.chaptergroups.not_enough_food.0.12.description.1}"]
 			dependencies: ["27E4CBB51DBD27CD"]
 			id: "22E1A465FAF7EAA2"
 			tasks: [{
@@ -712,10 +712,10 @@
 			x: 7.0d
 			y: 4.0d
 			description: [
-				"When any growable plant is placed on Rich Soil, its growth will be randomly boosted, similar to the usage of Bone Meal."
-				"Rich Soil can be tilled into Rich Farmland through the use of hoes. Rich Farmland is immune to mob trampling and won't unravel to Melons or Pumpkins, but requires hydration in order to boost crops."
+				"{quest.chaptergroups.not_enough_food.0.13.description.1}"
+				"{quest.chaptergroups.not_enough_food.0.13.description.2}"
 				""
-				"Mushrooms planted on Rich Soil under sufficient darkness will eventually form a Mushroom Colony. Such colonies will grow from 2 to 5 mushroom caps over time, dropping them when harvested."
+				"{quest.chaptergroups.not_enough_food.0.13.description.3}"
 			]
 			dependencies: ["56D3BC7D09F900CA"]
 			id: "1729A82B2351DE53"
@@ -3401,7 +3401,7 @@
 			]
 		}
 		{
-			title: "Tea time!"
+			title: "{quest.chaptergroups.not_enough_food.0.14.title}"
 			x: 0.0d
 			y: -1.0d
 			shape: "hexagon"

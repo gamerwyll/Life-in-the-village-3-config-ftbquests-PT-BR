@@ -3,7 +3,7 @@
 	group: "2280ECB310C79FE3"
 	order_index: 3
 	filename: "nomad"
-	title: "Nomad"
+	title: "{quest.chaptergroups.nomad.3.title}"
 	icon: {
 		id: "nomadictents:tiny_tepee"
 		Count: 1b

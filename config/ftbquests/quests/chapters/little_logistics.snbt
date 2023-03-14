@@ -3,7 +3,7 @@
 	group: "4BB8DCEF290E19CA"
 	order_index: 3
 	filename: "little_logistics"
-	title: "Little Logistics"
+	title: "{quest.chaptergroups.little_logistics.3.title}"
 	icon: "littlelogistics:steam_locomotive"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -41,7 +41,7 @@
 			x: -5.5d
 			y: -0.5d
 			shape: "octagon"
-			description: ["There are two types of vessels in this mod: tugs and barges. Tugs can move the barges when chained, and barges and do all sort of stuff. Tugs can also be moved manually using leads."]
+			description: ["{quest.chaptergroups.little_logistics.3.1.description.1}"]
 			dependencies: ["019D858D15FE3AC6"]
 			size: 2.0d
 			id: "51ECC8F4210B4A55"
@@ -61,7 +61,7 @@
 			x: 0.5d
 			y: -0.5d
 			shape: "octagon"
-			description: ["Little logistics trains operate on vanilla rails, but use custom train car entities instead of minecarts."]
+			description: ["{quest.chaptergroups.little_logistics.3.2.description.1}"]
 			dependencies: ["019D858D15FE3AC6"]
 			size: 2.0d
 			id: "595BD3E85F2C6557"
@@ -86,7 +86,7 @@
 		{
 			x: -7.5d
 			y: 1.5d
-			description: ["A basic tugboat that can operate on any furnace fuel. Fuel can be loaded with hoppers placed on top of tug docks."]
+			description: ["{quest.chaptergroups.little_logistics.3.3.description.1}"]
 			dependencies: ["51ECC8F4210B4A55"]
 			id: "4444311DC1D8C1C7"
 			tasks: [{
@@ -116,7 +116,7 @@
 		{
 			x: -7.5d
 			y: 2.5d
-			description: ["This item stores a route for the tug. When the item is placed in the tug’s route slot, the tug will follow the route in order from node 0. Right click at any coordinate to add a node to the back of the tug route (cannot add to the middle). Right click at the location of any existing node to remove it. Shift right click to bring up the menu that lets you modify the order of nodes or rename them. The route can be copied by placing it together with an empty one in a crafting grid."]
+			description: ["{quest.chaptergroups.little_logistics.3.4.description.1}"]
 			dependencies: ["4444311DC1D8C1C7"]
 			id: "0D272484F4DFDBB4"
 			tasks: [{
@@ -144,10 +144,10 @@
 			]
 		}
 		{
-			title: "Docking Vessels"
+			title: "{quest.chaptergroups.little_logistics.3.5.title}"
 			x: -6.5d
 			y: -3.0d
-			description: ["There are two dock blocks: barge and tug. The tug block must always be present for the barge docks to work. The top texture of the tug dock must be aligned with the barge docks, you can shift right-click the tug dock to flip the dock direction. The barge docks must form a straight line from the tug dock, there shouldn’t be any gaps in the line. The tug dock can only insert into the tug (orange/output mode), place a hopper on top of the dock to extract. The barge docks can both insert (orange/output mode) and extract (blue/input mode) into/from the barges, shift-right click to switch the mode. Place a hopper below the waterblock next to the barge dock to extract. The dock line should be next to a 1 block wide canal, wider canals can prevent the vessels from docking properly."]
+			description: ["{quest.chaptergroups.little_logistics.3.5.description.1}"]
 			dependencies: ["51ECC8F4210B4A55"]
 			id: "47982FDB1F2D1E7B"
 			tasks: [
@@ -184,7 +184,7 @@
 		{
 			x: -5.5d
 			y: 2.5d
-			description: ["A simple barge that holds items, very similar to vanilla minecart. Must be docked and part of a tug-train to interface with hoppers."]
+			description: ["{quest.chaptergroups.little_logistics.3.6.description.1}"]
 			dependencies: ["51ECC8F4210B4A55"]
 			id: "4C1664B165FF2E83"
 			tasks: [{
@@ -201,7 +201,7 @@
 		{
 			x: -6.5d
 			y: 2.0d
-			description: ["A simple barge that seats one player."]
+			description: ["{quest.chaptergroups.little_logistics.3.7.description.1}"]
 			dependencies: ["51ECC8F4210B4A55"]
 			id: "0C695CA08B66082E"
 			tasks: [{
@@ -218,7 +218,7 @@
 		{
 			x: -4.5d
 			y: 2.0d
-			description: ["Performs fishing passively, uses vanilla fishing rod loot table. Needs to be in open water for nets to be deployed. Can be unloaded with hoppers and barge docks. Must be docked and part of a tug-train to interface with hoppers. The barge has shallow water and “overfishing” penalties, so it’s best to use this barge on long routes into oceans. The yield is maximised when the water is 20 or more blocks deep. Overfishing is tracked per barge and per block, routes 200 or more blocks long should be sufficient to avoid overfishing."]
+			description: ["{quest.chaptergroups.little_logistics.3.8.description.1}"]
 			dependencies: ["51ECC8F4210B4A55"]
 			id: "2ECCE94672462271"
 			tasks: [{
@@ -235,7 +235,7 @@
 		{
 			x: -8.0d
 			y: -0.5d
-			description: ["Used to link vessels together. Right click vessels with a vehicle chain in order to create a “vessel train”. A train can only have one tugboat and cannot have loops."]
+			description: ["{quest.chaptergroups.little_logistics.3.9.description.1}"]
 			dependencies: ["51ECC8F4210B4A55"]
 			id: "4E857D616C6D33F4"
 			tasks: [{
@@ -275,7 +275,7 @@
 		{
 			x: -4.5d
 			y: -3.0d
-			description: ["Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. Does not affect barges. Shift-right-click to rotate."]
+			description: ["{quest.chaptergroups.little_logistics.3.10.description.1}"]
 			dependencies: ["51ECC8F4210B4A55"]
 			id: "0CE836DB7606CAAB"
 			tasks: [{
@@ -292,7 +292,7 @@
 		{
 			x: -5.5d
 			y: -4.0d
-			description: ["Assists vessels around sharp corners, should always be used on sharp corners or near entrances to narrow waterways (such as those for docks). Affects both tugs and barges. Shift-right-click to flip direction. Must not have a full solid block directly on top (i.e. no stone, planks etc. fence posts, signs etc. OK)."]
+			description: ["{quest.chaptergroups.little_logistics.3.11.description.1}"]
 			dependencies: ["51ECC8F4210B4A55"]
 			id: "76FA97442E6EE708"
 			tasks: [{
@@ -309,7 +309,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["Operates on any furnace fuel, can be loaded with hoppers."]
+			description: ["{quest.chaptergroups.little_logistics.3.12.description.1}"]
 			dependencies: ["595BD3E85F2C6557"]
 			id: "6721BCE4803094B0"
 			tasks: [{
@@ -339,7 +339,7 @@
 		{
 			x: 0.5d
 			y: 3.0d
-			description: ["Same as vanilla chest minecart, can be loaded or unloaded using vanilla hoppers or rapid hoppers from this mod."]
+			description: ["{quest.chaptergroups.little_logistics.3.13.description.1}"]
 			dependencies: ["09F1146561FD65FE"]
 			id: "714AECABC37851B5"
 			tasks: [{
@@ -363,7 +363,7 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["Can transport fluids, can be loaded or unloaded using fluid hoppers."]
+			description: ["{quest.chaptergroups.little_logistics.3.14.description.1}"]
 			dependencies: ["09F1146561FD65FE"]
 			id: "2AA26327FAA0F67C"
 			tasks: [{
@@ -387,7 +387,7 @@
 		{
 			x: 2.5d
 			y: 3.0d
-			description: ["Loads a 3x3 chunk area on the go, speed limits are enforced to avoid server lag."]
+			description: ["{quest.chaptergroups.little_logistics.3.15.description.1}"]
 			dependencies: ["09F1146561FD65FE"]
 			id: "4B65F416DD56516D"
 			tasks: [{
@@ -411,8 +411,8 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			subtitle: "Train cars are similar to vanilla minecarts, but can be linked to a locomotive and docked."
-			description: ["Same as vanilla minecarts, can seat one player or a mob"]
+			subtitle: "{quest.chaptergroups.little_logistics.3.16.subtitle}"
+			description: ["{quest.chaptergroups.little_logistics.3.16.description.1}"]
 			dependencies: ["595BD3E85F2C6557"]
 			id: "09F1146561FD65FE"
 			tasks: [{
@@ -429,7 +429,7 @@
 		{
 			x: 0.5d
 			y: 1.5d
-			description: ["Trains can be linked using “vehicle chains”. Train orientation will be updated automatically."]
+			description: ["{quest.chaptergroups.little_logistics.3.17.description.1}"]
 			dependencies: [
 				"6721BCE4803094B0"
 				"09F1146561FD65FE"
@@ -449,7 +449,7 @@
 		{
 			x: -3.5d
 			y: -1.5d
-			description: ["A hopper but for fluids, can import from the top and export from the sides. Can be loaded by right-clicking with buckets. Can be used to load/unload vessels using Docks."]
+			description: ["{quest.chaptergroups.little_logistics.3.18.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["019D858D15FE3AC6"]
 			id: "3EBACD250B948D9F"
@@ -473,7 +473,7 @@
 		{
 			x: -2.5d
 			y: -1.5d
-			subtitle: "Same as vanilla hopper, but 8 times as fast!"
+			subtitle: "{quest.chaptergroups.little_logistics.3.19.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["019D858D15FE3AC6"]
 			id: "70A79490C6F76D9F"
@@ -497,7 +497,7 @@
 		{
 			x: 0.5d
 			y: -2.5d
-			description: ["Standard Switch and T-junction tracks can be switched using redstone. Powered rails work great when trying to make loops."]
+			description: ["quest.chaptergroups.little_logistics.3.20.description.1"]
 			dependencies: ["595BD3E85F2C6557"]
 			id: "5812EDA58F9B18DB"
 			tasks: [{
@@ -585,7 +585,7 @@
 		{
 			x: 3.0d
 			y: -0.5d
-			description: ["Trains can be docked using a combination of “locomotive docking rails” and “train car docking rails”. Line the docking rails up, place unloaders below the rails and loaders on either side. Blue mode is used to unload and orange to load. The rails will automatically tell the locomotive to wait as long as there’s anything to be moved, if a redstone signal is applied to the locomotive rail, the locomotive will keep waiting regardless."]
+			description: ["{quest.chaptergroups.little_logistics.3.21.description.1}"]
 			dependencies: ["595BD3E85F2C6557"]
 			id: "0D9ED8A0AEA03507"
 			tasks: [
@@ -622,8 +622,8 @@
 		{
 			x: 0.5d
 			y: -4.0d
-			subtitle: "Automatic junction rails and routing"
-			description: ["Automatic switch tracks will be switched by a locomotive with a route. Every time a locomotive approaches an automatic junction, it will look for the closest waypoint it is yet to visit, and switch the track accordingly. Waypoint can be configured using the “locomotive route” item, they are not ordered."]
+			subtitle: "{quest.chaptergroups.little_logistics.3.22.subtitle}"
+			description: ["{quest.chaptergroups.little_logistics.3.22.description.1}"]
 			dependencies: ["5812EDA58F9B18DB"]
 			id: "5EDCC3D0D4EF8CC9"
 			tasks: [{

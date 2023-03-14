@@ -3,7 +3,7 @@
 	group: "46433AE7955AB640"
 	order_index: 2
 	filename: "honey"
-	title: "Busy Bees"
+	title: "{quest.chaptergroups.honey.2.title}"
 	icon: "minecraft:honeycomb"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 1.0d
 			y: 1.0d
-			description: ["Sweet, sweet comb."]
+			description: ["{quest.chaptergroups.getting_started.2.1.description.1}"]
 			dependencies: ["0000000000000129"]
 			id: "1AFBAF4ECA08B555"
 			tasks: [{
@@ -44,7 +44,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
-			description: ["The first home you can make for bees."]
+			description: ["{quest.chaptergroups.honey.2.2.description.1}"]
 			dependencies: ["000000000000030F"]
 			id: "0000000000000129"
 			tasks: [{
@@ -70,11 +70,11 @@
 			y: 3.0d
 			shape: "octagon"
 			description: [
-				"Bees inhabiting the advanced beehive will produce resources for you."
-				"Resources can be extracted automatically."
-				"Honey will be harvested automatically."
-				"Advanced hives are comfortable and bees living in here will not mind the hive being harvested."
-				"Can be expanded using an expansion box."
+				"{quest.chaptergroups.honey.2.2.description.1}"
+				"{quest.chaptergroups.honey.2.2.description.2}"
+				"{quest.chaptergroups.honey.2.2.description.3}"
+				"{quest.chaptergroups.honey.2.2.description.4}"
+				"{quest.chaptergroups.honey.2.2.description.5}"
 			]
 			dependencies: ["0000000000000129"]
 			size: 2.0d
@@ -106,7 +106,7 @@
 		{
 			x: 8.0d
 			y: 3.0d
-			description: ["Adds room for 2 more bees for a total of 5."]
+			description: ["{quest.chaptergroups.honey.2.4.description.1}"]
 			dependencies: ["0000000000000307"]
 			id: "0000000000000309"
 			tasks: [{
@@ -124,7 +124,7 @@
 			x: 4.0d
 			y: 5.0d
 			shape: "hexagon"
-			description: ["Extract resources from combs produced by your bees."]
+			description: ["{quest.chaptergroups.honey.2.5.description.1}"]
 			dependencies: ["0000000000000307"]
 			id: "000000000000030B"
 			tasks: [{
@@ -150,7 +150,7 @@
 			x: 7.0d
 			y: -1.0d
 			description: [
-				"Calms down angry bees, heals bees, and baby bees will grow faster when fed this."
+				"{quest.chaptergroups.honey.2.6.description.1}"
 				""
 				""
 			]
@@ -171,7 +171,7 @@
 			x: -1.5d
 			y: 3.0d
 			shape: "hexagon"
-			description: ["Capture and keep your bees safe during transport. One time use."]
+			description: ["{quest.chaptergroups.honey.2.7.description.1}"]
 			size: 1.5d
 			id: "000000000000030F"
 			tasks: [{
@@ -195,7 +195,7 @@
 		{
 			x: 2.0d
 			y: 5.0d
-			description: ["Will allow bees to be fed."]
+			description: ["{quest.chaptergroups.honey.2.8.description.1}"]
 			dependencies: ["0000000000000129"]
 			id: "1DBF47C93EE85A18"
 			tasks: [{
@@ -212,7 +212,7 @@
 		{
 			x: 1.0d
 			y: -1.0d
-			description: ["Places honey into bottles."]
+			description: ["{quest.chaptergroups.honey.2.9.description.1}"]
 			dependencies: ["1AFBAF4ECA08B555"]
 			id: "575C18AFB7EB80A0"
 			tasks: [{
@@ -243,7 +243,7 @@
 			x: 4.0d
 			y: 1.0d
 			shape: "octagon"
-			description: ["will generate power when fed with honey."]
+			description: ["{quest.chaptergroups.honey.2.10.description.1}"]
 			dependencies: [
 				"00000000000000CE"
 				"0000000000000127"
@@ -271,7 +271,7 @@
 		{
 			x: 7.0d
 			y: 0.5d
-			description: ["Raises baby bees."]
+			description: ["{quest.chaptergroups.honey.2.11.description.1}"]
 			dependencies: ["106B69AD442F9392"]
 			id: "42928DFCE3C87478"
 			tasks: [{
@@ -295,7 +295,7 @@
 		{
 			x: -1.5d
 			y: 5.0d
-			description: ["A handy knowledge book about Productive Bees."]
+			description: ["{quest.chaptergroups.honey.2.12.description.1}"]
 			dependencies: ["000000000000030F"]
 			id: "15037C611BEEBB4F"
 			tasks: [{
@@ -324,7 +324,7 @@
 		{
 			x: -1.5d
 			y: 1.0d
-			description: ["Right click the locator on a block of your choosing and it will locate a nest of the same type within a distance."]
+			description: ["{quest.chaptergroups.honey.2.13.description.1}"]
 			dependencies: ["000000000000030F"]
 			id: "3F072BDFACB5F6DF"
 			tasks: [{
@@ -345,7 +345,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
-			description: ["Will catch bees that fly over it."]
+			description: ["{quest.chaptergroups.honey.2.14.description.1}"]
 			dependencies: ["0000000000000129"]
 			id: "0AB33D74F6160D35"
 			tasks: [{
@@ -368,7 +368,7 @@
 		{
 			x: -3.0d
 			y: 4.0d
-			description: ["Will allow you to display a bee."]
+			description: ["{quest.chaptergroups.honey.2.15.description.1}"]
 			dependencies: ["000000000000030F"]
 			id: "454453E103EFA02A"
 			tasks: [{
@@ -396,7 +396,7 @@
 		{
 			x: 7.0d
 			y: 1.5d
-			description: ["Uses power to process comb faster."]
+			description: ["{quest.chaptergroups.honey.2.16.description.1}"]
 			dependencies: ["106B69AD442F9392"]
 			id: "15BD3956AF2AFFF7"
 			tasks: [{
@@ -421,7 +421,7 @@
 			x: 11.0d
 			y: 3.0d
 			shape: "octagon"
-			subtitle: "Breed all the vanilla type Productive bees"
+			subtitle: "{quest.chaptergroups.honey.2.17.subtitle}"
 			dependencies: ["0000000000000309"]
 			size: 1.5d
 			id: "720DA46F439D8886"
@@ -761,7 +761,7 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			subtitle: "Catch a bee in a bee cage"
+			subtitle: "{quest.chaptergroups.honey.2.18.subtitle}"
 			dependencies: ["000000000000030F"]
 			id: "318324469A97DADB"
 			tasks: [{
@@ -779,7 +779,7 @@
 		{
 			x: 9.0d
 			y: -2.0d
-			subtitle: "Use a Honey Treat on an angry bee to calm it down"
+			subtitle: "{quest.chaptergroups.honey.2.19.subtitle}"
 			dependencies: ["000000000000030D"]
 			id: "252C3F2A9D9C2F92"
 			tasks: [{
@@ -804,7 +804,7 @@
 		{
 			x: 9.0d
 			y: -1.0d
-			subtitle: "Use a Honey Treat on a nest"
+			subtitle: "{quest.chaptergroups.honey.2.20.subtitle}"
 			dependencies: ["000000000000030D"]
 			id: "585F9DC5CAA5C99B"
 			tasks: [{
@@ -835,7 +835,7 @@
 		{
 			x: 11.0d
 			y: -1.0d
-			subtitle: "It's not the destionation, it's the journBee! Ride a Bumble Bee."
+			subtitle: "{quest.chaptergroups.honey.2.22.subtitle}"
 			dependencies: ["585F9DC5CAA5C99B"]
 			id: "53950A9D42DFA86D"
 			tasks: [{
@@ -866,7 +866,7 @@
 		{
 			x: 13.0d
 			y: -1.0d
-			subtitle: "Craft a Treat on a Stick to steer your new favourite ride."
+			subtitle: "{quest.chaptergroups.honey.2.23.subtitle}"
 			dependencies: ["53950A9D42DFA86D"]
 			id: "04D1549FF7413AD9"
 			tasks: [{
@@ -907,7 +907,7 @@
 		{
 			x: 9.0d
 			y: 5.0d
-			subtitle: "Activate an Inactive Dragon Egg using Dragon Breath"
+			subtitle: "{uest.chaptergroups.honey.2.24.subtitle}"
 			dependencies: ["669DA32A1314417B"]
 			id: "41B81505CE9F11EA"
 			tasks: [{
@@ -941,7 +941,7 @@
 			]
 		}
 		{
-			title: "Acquire all vanilla type of combs!"
+			title: "{quest.chaptergroups.honey.2.25.title}"
 			x: 13.0d
 			y: 3.5d
 			shape: "hexagon"
@@ -1158,7 +1158,7 @@
 			]
 		}
 		{
-			title: "Acquire all other modded type of combs!"
+			title: "{quest.chaptergroups.honey.2.26.title}"
 			x: 12.0d
 			y: 4.5d
 			shape: "hexagon"
@@ -1256,7 +1256,7 @@
 			]
 		}
 		{
-			title: "Acquire all Tinker's Construct type of combs!"
+			title: "{quest.chaptergroups.honey.2.27.title}"
 			x: 12.0d
 			y: 1.5d
 			shape: "hexagon"
@@ -1406,7 +1406,7 @@
 			]
 		}
 		{
-			title: "Acquire all ore type combs!"
+			title: "{quest.chaptergroups.honey.2.28.title}"
 			x: 13.0d
 			y: 2.5d
 			shape: "hexagon"
@@ -1558,7 +1558,7 @@
 		{
 			x: 4.0d
 			y: 6.0d
-			description: ["Wax is a good source of fuel"]
+			description: [""]
 			dependencies: ["000000000000030B"]
 			id: "58B0ABBF1DD04A4C"
 			tasks: [{
