@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "the_patreon"
-	title: "The Patreon"
+	title: "{quest.chaptergroups.the_patreon.1.title}"
 	icon: "kubejs:heart"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
@@ -25,9 +25,9 @@
 			x: 3.0d
 			y: 3.5d
 			description: [
-				"I would like to thank everyone who supports me in any way: subbing on Patreon, renting a server or by simply downloading any of my packs."
+				"{quest.chaptergroups.the_patreon.1.1.description.1}"
 				""
-				"Your contribution is very important."
+				"{quest.chaptergroups.the_patreon.1.1.description.2}"
 				""
 			]
 			size: 2.0d
@@ -35,7 +35,7 @@
 			tasks: [{
 				id: "0816AD3C57AC7395"
 				type: "checkmark"
-				title: "THANK YOU FOR YOUR SUPPORT!"
+				title: "{quest.chaptergroups.the_patreon.1.2.title}"
 			}]
 		}
 		{

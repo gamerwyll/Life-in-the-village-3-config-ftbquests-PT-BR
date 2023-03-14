@@ -3,7 +3,7 @@
 	group: "2280ECB310C79FE3"
 	order_index: 1
 	filename: "reborn_of_the_end"
-	title: "The End"
+	title: "{quest.chaptergroups.reborn_of_the_end.1.title}"
 	icon: "nourished_end:abyssal_eylium"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
@@ -627,7 +627,7 @@
 			x: 0.5d
 			y: 4.0d
 			shape: "hexagon"
-			subtitle: "Enter the End portal"
+			subtitle: "{quest.chaptergroups.reborn_of_the_end.1.1.subtitle}"
 			size: 2.0d
 			id: "744D7446D8F67623"
 			tasks: [{

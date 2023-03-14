@@ -1,7 +1,7 @@
 {
 	id: "3D548FB82AF8A38A"
 	order_index: 11
-	title: "Mythic loot crate"
+	title: "{quest.reward_tables.mythic_loot_crate.title}"
 	loot_size: 1
 	rewards: [ ]
 	loot_crate: {

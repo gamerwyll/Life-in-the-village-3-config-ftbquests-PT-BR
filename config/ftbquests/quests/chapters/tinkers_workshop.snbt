@@ -3,7 +3,7 @@
 	group: "4BB8DCEF290E19CA"
 	order_index: 0
 	filename: "tinkers_workshop"
-	title: "Tinkers Workshop"
+	title: "{quest.chaptergroups.tinkers_workshop.0.title}"
 	icon: {
 		id: "tconstruct:scorched_anvil"
 		Count: 1b
@@ -18,8 +18,8 @@
 			x: -3.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "Be sure to read it!"
-			description: ["This book have much more detailed info about Tinker's Construct mod."]
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.1.subtitle}"
+			description: ["{quest.chaptergroups.tinkers_workshop.0.1.description.1}"]
 			size: 1.5d
 			id: "286CB64900B1EBCB"
 			tasks: [{
@@ -55,7 +55,7 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "Smelting and Casting guidebook"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.2.subtitle}"
 			dependencies: ["21DBF631B1411130"]
 			size: 1.5d
 			id: "1135AB1EFCAE4958"
@@ -181,10 +181,10 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			subtitle: "Craft Part Builder to create parts for your tools"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.3.subtitle}"
 			description: [
-				"Craft your first pick with Wooden head."
-				"Don't worry - we will upgrade it to Stone in next step(this is just to show the upgrade process)"
+				"{quest.chaptergroups.tinkers_workshop.0.3.description.1}"
+				"{quest.chaptergroups.tinkers_workshop.0.3.description.1}"
 			]
 			dependencies: ["286CB64900B1EBCB"]
 			id: "027FA7B5FE499C6A"
@@ -243,11 +243,11 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			subtitle: "Craft Tinker Station to assemble your Tools from Parts"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.4.subtitle}"
 			description: [
-				"Now you can either assemble a new Stone Pickaxe or upgrade your Wooden one by placing the part you want to upgrade"
+				"{quest.chaptergroups.tinkers_workshop.0.4.description.1}"
 				""
-				"Check the other tools that you can make!"
+				"{quest.chaptergroups.tinkers_workshop.0.4.description.2}"
 			]
 			dependencies: ["027FA7B5FE499C6A"]
 			id: "2019084A1923AA05"
@@ -371,7 +371,7 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			subtitle: "To store all your parts"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.5.subtitle}"
 			dependencies: ["027FA7B5FE499C6A"]
 			id: "41259A249544DFA6"
 			tasks: [{
@@ -392,18 +392,18 @@
 			}]
 		}
 		{
-			title: "Basic Smeltery"
+			title: "{quest.chaptergroups.tinkers_workshop.0.6.title}"
 			icon: "tconstruct:seared_melter"
 			x: 8.0d
 			y: 0.0d
-			subtitle: "Your first smelting device"
+			subtitle: "quest.chaptergroups.tinkers_workshop.0.6.subtitle"
 			description: [
-				"• You first smeltery"
-				"• Mini 2 block smeltery."
-				"• Gives 9 nuggets from ore"
-				"• Uses Heater - solid fuel source - to melt ores. Heater can be replaced with Seared Tank which can increase temperature"
-				"• Internal capacity of 9 ingots"
-				"• Melts 3 items at once"
+				"{quest.chaptergroups.tinkers_workshop.0.6.description.1}"
+				"{quest.chaptergroups.tinkers_workshop.0.6.description.2}"
+				"{quest.chaptergroups.tinkers_workshop.0.6.description.3}"
+				"{quest.chaptergroups.tinkers_workshop.0.6.description.4}"
+				"{quest.chaptergroups.tinkers_workshop.0.6.description.5}"
+				"{quest.chaptergroups.tinkers_workshop.0.6.description.6}"
 			]
 			dependencies: ["57633F033AA5D597"]
 			id: "66B2EBFE9718B18F"
@@ -461,22 +461,22 @@
 			]
 		}
 		{
-			title: "The mighty smeltery"
+			title: "{quest.chaptergroups.tinkers_workshop.0.7.title}"
 			icon: "tconstruct:smeltery_controller"
 			x: 13.0d
 			y: 0.0d
 			description: [
-				"• Should be your second smeltery"
+				"{quest.chaptergroups.tinkers_workshop.0.7.description.1}"
 				""
-				"• Gives 12 nuggets from ore"
+				"{quest.chaptergroups.tinkers_workshop.0.7.description.2}"
 				""
-				"• Mass melting capabilities, extendable capacity"
+				"{quest.chaptergroups.tinkers_workshop.0.7.description.3}"
 				""
-				"• More fuel efficiency, depends on size"
+				"{quest.chaptergroups.tinkers_workshop.0.7.description.4}"
 				""
-				"• Able to melt mobs"
+				"{quest.chaptergroups.tinkers_workshop.0.7.description.5}"
 				""
-				"• Ideal for mass smelting"
+				"{quest.chaptergroups.tinkers_workshop.0.7.description.6}"
 			]
 			dependencies: ["334C559F2561363F"]
 			id: "669C12775ABE80B4"
@@ -524,11 +524,11 @@
 			]
 		}
 		{
-			title: "Alloyer"
+			title: "{quest.chaptergroups.tinkers_workshop.0.8.title}"
 			icon: "tconstruct:scorched_alloyer"
 			x: 15.5d
 			y: 5.0d
-			subtitle: "Used to create Alloys from two metals"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.8.subtitle}"
 			dependencies: ["31F3DEBB3C6A6C27"]
 			id: "506C04CF6B06F5EF"
 			tasks: [
@@ -578,13 +578,13 @@
 			x: 18.0d
 			y: 5.0d
 			description: [
-				"• Gives byproducts from ores"
+				"{quest.chaptergroups.tinkers_workshop.0.9.description.1}"
 				""
-				"• Cannot alloy"
+				"{quest.chaptergroups.tinkers_workshop.0.9.description.2}"
 				""
-				"• Can hold multiple metals"
+				"{quest.chaptergroups.tinkers_workshop.0.9.description.3}"
 				""
-				"• Can melt blocks that give multiple outputs"
+				"{quest.chaptergroups.tinkers_workshop.0.9.description.4}"
 			]
 			dependencies: ["506C04CF6B06F5EF"]
 			id: "4E216103A01C2BDA"
@@ -660,7 +660,7 @@
 		{
 			x: 15.5d
 			y: 0.0d
-			subtitle: "Provides access to more tools and weapons"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.10.subtitle}"
 			dependencies: ["669C12775ABE80B4"]
 			id: "13097119E80E4276"
 			tasks: [{
@@ -699,10 +699,10 @@
 			]
 		}
 		{
-			title: "Need to go deeper"
+			title: "{quest.chaptergroups.tinkers_workshop.0.11.title}"
 			x: 13.0d
 			y: 2.5d
-			subtitle: "Visit Nether to find new materials for your tools."
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.11.subtitle}"
 			dependencies: ["669C12775ABE80B4"]
 			id: "63CFF01CE065EBA2"
 			tasks: [{
@@ -731,15 +731,15 @@
 		{
 			x: 8.0d
 			y: 1.5d
-			subtitle: "Casts are used with the Smeltery to make metal tool parts."
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.12.subtitle}"
 			description: [
-				"To start, take a stone tool part, (ex., pickaxe head) and put it in a Casting Table hooked up to your Smeltery."
+				"{quest.chaptergroups.tinkers_workshop.0.12.description.1}"
 				""
-				"Then pour some Gold on the table."
+				"{quest.chaptergroups.tinkers_workshop.0.12.description.2}"
 				""
-				"It will form a Cast around the tool part. The stone part is consumed and your cast is ready to be filled with metal of your choice."
+				"{quest.chaptergroups.tinkers_workshop.0.12.description.3}"
 				""
-				"The ingot cast requires any ingot."
+				"{quest.chaptergroups.tinkers_workshop.0.12.description.4}"
 			]
 			dependencies: ["66B2EBFE9718B18F"]
 			id: "697FA8E25F8878DC"
@@ -892,13 +892,13 @@
 			]
 		}
 		{
-			title: "Full reinforcement"
+			title: "{quest.chaptergroups.tinkers_workshop.0.13.subtitle}"
 			x: 8.0d
 			y: -1.5d
 			description: [
-				"Defense are a type of modifier exclusive to armor, boosting protection against particular threats such as fire or knockback. They provide another way to customize armor as most armor types lack material traits."
+				"{quest.chaptergroups.tinkers_workshop.0.13.description.1}"
 				""
-				"They require defense slots to be applies."
+				"{quest.chaptergroups.tinkers_workshop.0.13.description.2}"
 			]
 			dependencies: ["66B2EBFE9718B18F"]
 			id: "1BC681BBA826E5A7"
@@ -1079,10 +1079,10 @@
 			]
 		}
 		{
-			title: "Traveler's Gear"
+			title: "{quest.chaptergroups.tinkers_workshop.0.14.title}"
 			x: 4.5d
 			y: 1.5d
-			subtitle: "Now with upgrades!"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.14.subtitle}"
 			dependencies: ["1135AB1EFCAE4958"]
 			id: "5B977815886D4AFE"
 			tasks: [
@@ -1411,7 +1411,7 @@
 		{
 			x: 7.0d
 			y: 1.5d
-			subtitle: "Collect all the golden casts"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.15.subtitle}"
 			dependencies: ["697FA8E25F8878DC"]
 			id: "6C6F964C4A018DA5"
 			tasks: [{
@@ -1453,7 +1453,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			subtitle: "Clay, Sand and Gravel"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.16.subtitle}"
 			dependencies: ["2019084A1923AA05"]
 			id: "21DBF631B1411130"
 			tasks: [{
@@ -1470,7 +1470,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			subtitle: "Required to make Seared bricks"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.17.subtitle}"
 			dependencies: ["1135AB1EFCAE4958"]
 			id: "57633F033AA5D597"
 			tasks: [{
@@ -1485,7 +1485,7 @@
 			}]
 		}
 		{
-			title: "Plated Gear"
+			title: "{quest.chaptergroups.tinkers_workshop.0.18.title}"
 			x: 16.0d
 			y: 2.5d
 			dependencies: ["1D73639C8475DE8F"]
@@ -1601,7 +1601,7 @@
 		{
 			x: 6.0d
 			y: 1.5d
-			subtitle: "Let me show you the way"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.19.subtitle}"
 			dependencies: ["57633F033AA5D597"]
 			id: "1CBBA3E5B8B8BBA6"
 			tasks: [{
@@ -1618,13 +1618,13 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			subtitle: "Apply a modifier to a tinker tool"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.20.subtitle}"
 			description: [
-				"Modifiers are extra enhancements that can be applied to a tool, similar to enchantments."
+				"{quest.chaptergroups.tinkers_workshop.0.20.description.1}"
 				""
-				"Upgrades are standart improvements to a tool. They are usually done simply by applying an item to a tool."
+				"{quest.chaptergroups.tinkers_workshop.0.20.description.2}"
 				""
-				"Upgrades require upgrade slots to be applied. Most tools start with 3 or 4 upgrade slots, though it's possible to get more slots."
+				"{quest.chaptergroups.tinkers_workshop.0.20.description.3}"
 			]
 			dependencies: ["1135AB1EFCAE4958"]
 			id: "5B297B4A3774710F"
@@ -1648,7 +1648,7 @@
 			}]
 		}
 		{
-			title: "Abilities"
+			title: "{quest.chaptergroups.tinkers_workshop.0.21.title}"
 			icon: {
 				id: "tconstruct:creative_slot"
 				Count: 1b
@@ -1658,11 +1658,11 @@
 			}
 			x: 17.5d
 			y: 6.5d
-			subtitle: "Abilities are powerful modifiers that drastically change a tool. "
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.22.subtitle}"
 			description: [
-				"Modifiers such as silk touch and autosmelt are notable as both change the effects of mining blocks."
+				"{quest.chaptergroups.tinkers_workshop.0.23..description.1}"
 				""
-				"Abilities require ability slots to be applied. Nearly all tools start with a single ability slot, and can only receive up to 1 more so choose wisely!"
+				"{quest.chaptergroups.tinkers_workshop.0.23..description.1}"
 			]
 			dependencies: ["080C6380A03F41FD"]
 			id: "0134A7F0CA36F603"
@@ -1681,7 +1681,7 @@
 		{
 			x: 18.5d
 			y: 6.5d
-			subtitle: "Apply every single default ability modifier to a tool at least once"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.24.subtitle}"
 			dependencies: ["0134A7F0CA36F603"]
 			id: "4C5FD45040647654"
 			tasks: [{

@@ -1,7 +1,7 @@
 {
 	id: "1C5F555825A46F4F"
 	order_index: 12
-	title: "Tinker's Material loot crate"
+	title: "{quest.reward_tables.tinkers_material_loot_crate.title}"
 	loot_size: 1
 	rewards: [
 		{

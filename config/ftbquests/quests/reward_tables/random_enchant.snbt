@@ -1,7 +1,7 @@
 {
 	id: "4D636401A6C2C42C"
 	order_index: 5
-	title: "Random Enchant"
+	title: "{quest.reward_tables.random_enchant.title}"
 	loot_size: 1
 	use_title: true
 	rewards: [

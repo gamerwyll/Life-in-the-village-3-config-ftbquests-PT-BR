@@ -1,7 +1,7 @@
 {
 	id: "32F9A93C0635A760"
 	order_index: 16
-	title: "Iron coin reward"
+	title: "{quest.reward_tables.iron_coin_reward.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "aquaculture:lockbox", count: 4 }

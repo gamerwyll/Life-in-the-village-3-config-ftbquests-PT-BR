@@ -3,7 +3,7 @@
 	group: "4BB8DCEF290E19CA"
 	order_index: 2
 	filename: "simple_storage"
-	title: "Storage Solutions"
+	title: "{quest.chaptergroups.simple_storage.2.title}"
 	icon: "storagenetwork:master"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 11.5d
 			y: 5.5d
-			description: ["The root of your Simple Storage Network. You will only need a single root per network."]
+			description: ["{quest.chaptergroups.simple_storage.2.1.description.1}"]
 			dependencies: ["0000000000001247"]
 			size: 1.5d
 			id: "00000000000001A1"
@@ -29,7 +29,7 @@
 		{
 			x: 10.0d
 			y: 4.5d
-			description: ["Link cables are used to link inventories (a chest for example) into a network. Only a single link cable must be in contact with the chest, a standard network cable can then connect the remaining distance to the network."]
+			description: ["{quest.chaptergroups.simple_storage.2.2.description.1}"]
 			dependencies: ["00000000000001A1"]
 			id: "00000000000001A3"
 			tasks: [{
@@ -46,7 +46,7 @@
 		{
 			x: 13.0d
 			y: 6.5d
-			description: ["This block allows you to craft with items from a network."]
+			description: ["{quest.chaptergroups.simple_storage.2.3.description.1}"]
 			dependencies: ["00000000000001A1"]
 			id: "00000000000001A5"
 			tasks: [{
@@ -63,7 +63,7 @@
 		{
 			x: 8.5d
 			y: 5.5d
-			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."]
+			description: ["{quest.chaptergroups.simple_storage.2.4.description.1}"]
 			id: "00000000000001A7"
 			tasks: [{
 				id: "00000000000001A8"
@@ -79,7 +79,7 @@
 		{
 			x: 10.0d
 			y: 6.5d
-			description: ["This block will allow you to see what is stored in a network."]
+			description: ["{quest.chaptergroups.simple_storage.2.5.description.1}"]
 			dependencies: ["00000000000001A1"]
 			id: "00000000000001A9"
 			tasks: [{
@@ -96,7 +96,7 @@
 		{
 			x: 13.0d
 			y: 4.5d
-			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable needs to be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."]
+			description: ["{quest.chaptergroups.simple_storage.2.6.description.1}"]
 			dependencies: ["00000000000001A1"]
 			id: "0000000000001132"
 			tasks: [{
@@ -122,8 +122,8 @@
 			x: 11.5d
 			y: 4.0d
 			description: [
-				"An export cable pulls items OUT of a network and into a block (aka importing a item into a machine from the network). Only a single export cable needs to be placed to put into a block, they can be connected by standard network cable to the network."
-				"Can be right clicked to set whitelists/blacklists of items for the link."
+				"quest.chaptergroups.simple_storage.2.7.description.1"
+				"quest.chaptergroups.simple_storage.2.7.description.2"
 			]
 			dependencies: ["00000000000001A1"]
 			id: "0000000000001134"
@@ -149,7 +149,7 @@
 		{
 			x: 10.5d
 			y: 3.5d
-			description: ["Functions as a link cable but can limit the items that are connected and set storage priority."]
+			description: ["{quest.chaptergroups.simple_storage.2.8.description.1}"]
 			dependencies: ["00000000000001A3"]
 			id: "0000000000001136"
 			tasks: [{
@@ -174,7 +174,7 @@
 		{
 			x: 12.5d
 			y: 3.5d
-			description: ["Acts like an input cable but allows the input to the network to be filtered."]
+			description: ["{quest.chaptergroups.simple_storage.2.9.description.1}"]
 			dependencies: ["0000000000001132"]
 			id: "0000000000001138"
 			tasks: [{
@@ -199,7 +199,7 @@
 		{
 			x: 11.0d
 			y: 7.0d
-			description: ["This upgrade will improve the speed that a cable will operate at. Can be input when right clicking a linked cable and input at the top right."]
+			description: ["{quest.chaptergroups.simple_storage.2.10.description.1}"]
 			dependencies: ["00000000000001A1"]
 			id: "000000000000113E"
 			tasks: [{
@@ -223,7 +223,7 @@
 		{
 			x: 10.0d
 			y: 7.5d
-			description: ["This upgrade will increase the size of a stack of items that a link cable can move. Can be input by right clicking a linked cable and input at the top right."]
+			description: ["{quest.chaptergroups.simple_storage.2.11.description.1}"]
 			dependencies: ["000000000000113E"]
 			id: "0000000000001140"
 			tasks: [{
@@ -248,9 +248,9 @@
 			x: 12.0d
 			y: 7.0d
 			description: [
-				"This remote will allow you to see the contents of a network at a distance. Can be linked to a network by shift right clicking the root with the remote."
+				"{quest.chaptergroups.simple_storage.2.12.description.1}"
 				""
-				"The network will need to be chunk loaded to be seen at a distance."
+				"{quest.chaptergroups.simple_storage.2.12.description.2}"
 			]
 			dependencies: ["00000000000001A1"]
 			id: "0000000000001142"
@@ -276,9 +276,9 @@
 			x: 13.0d
 			y: 7.5d
 			description: [
-				"An upgrade of the storage remote that allows you to craft at a distance from your storage network."
+				"{quest.chaptergroups.simple_storage.2.13.description.1}"
 				""
-				"Your network will need to be chunk loaded to remain active at a distance."
+				"{quest.chaptergroups.simple_storage.2.13.description.2}"
 			]
 			dependencies: ["0000000000001142"]
 			id: "0000000000001144"
@@ -303,7 +303,7 @@
 		{
 			x: 9.5d
 			y: 5.5d
-			description: ["The Network Guide Book will be your guide to Simple Storage Network machines and mechanics."]
+			description: ["{quest.chaptergroups.simple_storage.2.14.description.1}"]
 			dependencies: ["00000000000001A7"]
 			id: "0000000000001247"
 			tasks: [{
@@ -327,9 +327,9 @@
 			x: -2.5d
 			y: 8.5d
 			description: [
-				"The Drawer Controller will allow you to connect all storage drawers in a 12 block radius making a large combined storage."
+				"{quest.chaptergroups.simple_storage.2.15.description.1}"
 				""
-				"You can deposit items into the entire system by right clicking items onto it. Double right clicking the controller will attempt to dump your enitre inventory into the system, but only if they currently exist in the system."
+				"{quest.chaptergroups.simple_storage.2.15.description.2}"
 			]
 			id: "66D26625F2F9CB42"
 			tasks: [{
@@ -352,7 +352,7 @@
 		{
 			x: -1.5d
 			y: 8.5d
-			description: ["The Drawer Controller Slave will allow you to extend your storage system when connected to a storage controller. This is more performance friendly than having multiple controllers."]
+			description: ["{quest.chaptergroups.simple_storage.2.16.description.1}"]
 			dependencies: ["66D26625F2F9CB42"]
 			id: "159670F55DD10CD9"
 			tasks: [{
@@ -370,9 +370,9 @@
 			x: -2.0d
 			y: 9.5d
 			description: [
-				"Compacting drawers are a special drawer that will hold a specific material type and allow it to be changed between its different material amounts."
+				"{quest.chaptergroups.simple_storage.2.17.description.1}"
 				""
-				"For example, loading this drawer with a iron block will allow you to pull the iron block, 9 iron ingots, or 81 iron nuggets from it with no crafting required."
+				"{quest.chaptergroups.simple_storage.2.17.description.2}"
 			]
 			id: "69855EE51B48E6B7"
 			tasks: [{
@@ -390,9 +390,9 @@
 			x: -1.0d
 			y: 9.5d
 			description: [
-				"The Drawer Key will allow you to lock an item to a storage drawer slot. This will lock that item into that slot, even when all items are removed from the drawer."
+				"{quest.chaptergroups.simple_storage.2.18.description.1}"
 				""
-				"The Quantify Key will allow you to show/hide the storage drawer display of the number of items contained on the face of the drawer."
+				"{quest.chaptergroups.simple_storage.2.18.description.2}"
 			]
 			id: "206FE38B596D60E7"
 			tasks: [
@@ -424,12 +424,12 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			description: ["Full-size 1x1 storage drawers will store 32 stacks of an item."]
+			description: ["{quest.chaptergroups.simple_storage.2.19.description.1}"]
 			id: "780A36F4890D3165"
 			tasks: [{
 				id: "38D6DB6F8EDE2E63"
 				type: "item"
-				title: "Full Storage Drawer: Single Item"
+				title: "{quest.chaptergroups.simple_storage.2.20.title}"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -472,12 +472,12 @@
 		{
 			x: -2.0d
 			y: 1.5d
-			description: ["Full-size 1x2 storage drawers will store 16 stacks of an item per drawer (32 stacks overall)."]
+			description: ["{quest.chaptergroups.simple_storage.2.21.description.1}"]
 			id: "5B1664C5DEB1160D"
 			tasks: [{
 				id: "23A19BE3AFE3F041"
 				type: "item"
-				title: "Full Storage Drawer: Two Items"
+				title: "quest.chaptergroups.simple_storage.2.21.title"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -520,12 +520,12 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			description: ["Full-size 2x2 storage drawers will store 8 stacks of an item per drawer (32 stacks overall)."]
+			description: ["{quest.chaptergroups.simple_storage.2.22.description.1}"]
 			id: "3EA48F9716705F18"
 			tasks: [{
 				id: "702BCF9A77D94BFF"
 				type: "item"
-				title: "Full Storage Drawer: Four Items"
+				title: "{quest.chaptergroups.simple_storage.2.22.title}"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -568,12 +568,12 @@
 		{
 			x: -3.0d
 			y: 2.5d
-			description: ["Half-size 1x1 storage drawers will store 16 stacks of an item."]
+			description: ["{quest.chaptergroups.simple_storage.2.23.description.1}"]
 			id: "5649FC1867467561"
 			tasks: [{
 				id: "2936B970D64810EC"
 				type: "item"
-				title: "Half Storage Drawer: One Item"
+				title: "{quest.chaptergroups.simple_storage.2.23.title}"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -616,12 +616,12 @@
 		{
 			x: -2.0d
 			y: 2.5d
-			description: ["Half-size 1x2 storage drawers will store 8 stacks of an item per drawer (16 stacks overall)."]
+			description: ["{quest.chaptergroups.simple_storage.2.24.description.1}"]
 			id: "057CB349E1D67E10"
 			tasks: [{
 				id: "12084578B8CA0A5E"
 				type: "item"
-				title: "Half Storage Drawer: Two Items"
+				title: "{quest.chaptergroups.simple_storage.2.24.title}"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -664,12 +664,12 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			description: ["Half-size 2x2 storage drawers will store 4 stacks of an item per drawer (16 stacks overall)."]
+			description: ["{quest.chaptergroups.simple_storage.2.25.description.1}"]
 			id: "227177C9C7B62C0C"
 			tasks: [{
 				id: "6ABC8CE33AAEDE2F"
 				type: "item"
-				title: "Half Storage Drawer: Four Items"
+				title: "{quest.chaptergroups.simple_storage.2.25.title}"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -712,12 +712,12 @@
 		{
 			x: -3.0d
 			y: 9.5d
-			description: ["Trim pieces will allow you to extend your network around corners or other configurations without sacrificing a true storage drawer. It is helpful when setting up a controller based system."]
+			description: ["{quest.chaptergroups.simple_storage.2.26.description.1}"]
 			id: "039F4C3E503F2102"
 			tasks: [{
 				id: "3CCB0CCB0FF80E03"
 				type: "item"
-				title: "Storage Drawers Trim"
+				title: "{quest.chaptergroups.simple_storage.2.26.title}"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -760,7 +760,7 @@
 		{
 			x: -1.5d
 			y: 3.5d
-			description: ["The storage downgrade will drop the storage of the drawer it is installed in to one stack."]
+			description: ["{quest.chaptergroups.simple_storage.2.27.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "61E553A98BE5C2EC"
 			tasks: [{
@@ -778,7 +778,7 @@
 		{
 			x: -0.5d
 			y: 4.0d
-			description: ["The first level of storage upgrade will increase the storage of a drawer block by 2 times."]
+			description: ["{quest.chaptergroups.simple_storage.2.27.title}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "0F7BAC3F5F3CDBDB"
 			tasks: [{
@@ -795,7 +795,7 @@
 		{
 			x: 0.0d
 			y: 5.0d
-			description: ["The second level of storage upgrade will increase the storage of a drawer block by 4 times."]
+			description: ["{quest.chaptergroups.simple_storage.2.28.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "723A9F5E5263517D"
 			tasks: [{
@@ -819,7 +819,7 @@
 		{
 			x: 0.0d
 			y: 6.0d
-			description: ["The third level of storage upgrade will increase the storage of a drawer block by 8 times."]
+			description: ["{quest.chaptergroups.simple_storage.2.29.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "71C41E71CF881A59"
 			tasks: [{
@@ -849,7 +849,7 @@
 		{
 			x: -0.5d
 			y: 7.0d
-			description: ["The fourth level of storage upgrade will increase the storage of a drawer block by 16 times."]
+			description: ["{quest.chaptergroups.simple_storage.2.30.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "4F02FD27A3688E42"
 			tasks: [{
@@ -874,7 +874,7 @@
 		{
 			x: -1.5d
 			y: 7.5d
-			description: ["The fifth, and final, level of storage upgrade will increase the storage of a drawer block by 32 times."]
+			description: ["{quest.chaptergroups.simple_storage.2.31.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "0EA88FDF0A8CF786"
 			tasks: [{
@@ -899,7 +899,7 @@
 		{
 			x: -2.5d
 			y: 3.5d
-			description: ["The void upgrade will void any items added to the drawer past its max capacity."]
+			description: ["{quest.chaptergroups.simple_storage.2.32.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "338FEC8C826F9B46"
 			tasks: [{
@@ -916,7 +916,7 @@
 		{
 			x: -3.5d
 			y: 4.0d
-			description: ["The conversion upgrade will convert materials from different mods to a single type. (You should not run into this in this pack)."]
+			description: ["{quest.chaptergroups.simple_storage.2.33.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "6175CD799995E927"
 			tasks: [{
@@ -942,7 +942,7 @@
 			x: -2.0d
 			y: 5.5d
 			shape: "hexagon"
-			description: ["This upgrade template is the base of many upgrades that can be applied to storage drawers."]
+			description: ["{quest.chaptergroups.simple_storage.2.34.description.1}"]
 			size: 1.5d
 			id: "3B2469805D2E4E2B"
 			tasks: [{
@@ -959,7 +959,7 @@
 		{
 			x: -4.0d
 			y: 5.0d
-			description: ["The illumination upgrade will make the item and number count on the front of the drawer glow, being more visible in less lit areas."]
+			description: ["{quest.chaptergroups.simple_storage.2.35.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "52B6116AD14A0D31"
 			tasks: [{
@@ -976,7 +976,7 @@
 		{
 			x: -4.0d
 			y: 6.0d
-			description: ["The redstone upgrade will ouptut a redstone signal equivalent to the level that the storage is full."]
+			description: ["{quest.chaptergroups.simple_storage.2.36.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "1A1749750B6EF51A"
 			tasks: [{
@@ -993,7 +993,7 @@
 		{
 			x: -3.5d
 			y: 7.0d
-			description: ["The min redstone upgrade will output a redstone signal equivalent to the lowest filled drawer level."]
+			description: ["{quest.chaptergroups.simple_storage.2.37.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "17742B177BFBE35C"
 			tasks: [{
@@ -1010,7 +1010,7 @@
 		{
 			x: -2.5d
 			y: 7.5d
-			description: ["The max redstone upgrade will output a redstone signal equivalent to how full the most filled drawer."]
+			description: ["{quest.chaptergroups.simple_storage.2.38.description.1}"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "49997B92CC48A598"
 			tasks: [{
@@ -1365,7 +1365,7 @@
 			tasks: [{
 				id: "61A839CACDC3E1CE"
 				type: "item"
-				title: "Any #forge:barrels/wooden"
+				title: "{quest.chaptergroups.simple_storage.2.39.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

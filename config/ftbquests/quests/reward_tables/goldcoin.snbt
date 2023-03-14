@@ -1,7 +1,7 @@
 {
 	id: "4A6B5F21959DEDA5"
 	order_index: 24
-	title: "Gold-coin"
+	title: "{quest.reward_tables.goldcoin.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "kubejs:copper_coin", count: 2 }

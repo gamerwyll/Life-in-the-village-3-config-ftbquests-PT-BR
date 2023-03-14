@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 7
 	filename: "playtime_rewards"
-	title: "Playtime rewards"
+	title: "{quest.chaptergroups.nether_exploration.7.title}"
 	icon: "minecraft:clock"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -4.0d
 			y: -1.5d
-			description: ["Welp, you did it."]
+			description: ["{quest.chaptergroups.nether_exploration.7.1.description.1}"]
 			id: "7361476FF42D2910"
 			tasks: [{
 				id: "6E363C8F90BE423B"
@@ -35,7 +35,7 @@
 		{
 			x: -3.0d
 			y: -1.5d
-			description: ["Welcome to the modpack."]
+			description: ["{quest.chaptergroups.nether_exploration.7.2.description.1}"]
 			hide_dependency_lines: false
 			dependencies: ["7361476FF42D2910"]
 			hide: true
@@ -62,7 +62,7 @@
 		{
 			x: -2.0d
 			y: -1.5d
-			description: ["Is this the beginning of something big?"]
+			description: ["{quest.chaptergroups.nether_exploration.7.3.description.1}"]
 			dependencies: ["6FC89177F5DA0A34"]
 			hide: true
 			hide_text_until_complete: true
@@ -99,7 +99,7 @@
 		{
 			x: -1.0d
 			y: -1.5d
-			description: ["We have some work to do."]
+			description: ["{quest.chaptergroups.nether_exploration.7.4.description.1}"]
 			dependencies: ["77FF20E44CAA5BDB"]
 			hide: true
 			hide_text_until_complete: true
@@ -131,8 +131,8 @@
 			x: 0.0d
 			y: -1.5d
 			description: [
-				"Some more play days ahead..."
-				"Good old Minecraft days..."
+				"{quest.chaptergroups.nether_exploration.7.5.description.1}"
+				"{quest.chaptergroups.nether_exploration.7.5.description.2}"
 			]
 			dependencies: ["63370203DE635527"]
 			hide: true
@@ -170,7 +170,7 @@
 		{
 			x: 1.0d
 			y: -1.5d
-			description: ["Do you even have time to play?"]
+			description: ["{quest.chaptergroups.nether_exploration.7.6.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["27937757D1C60856"]
 			hide: true
@@ -203,7 +203,7 @@
 		{
 			x: 2.0d
 			y: -1.5d
-			description: ["Because I do."]
+			description: ["{quest.chaptergroups.nether_exploration.7.7.description.1}"]
 			dependencies: ["176F0155A9C8E1B5"]
 			hide: true
 			hide_text_until_complete: true
@@ -241,7 +241,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			description: ["I'm stuck here."]
+			description: ["{quest.chaptergroups.nether_exploration.7.8.description.1}"]
 			dependencies: ["21DE75A2E9463120"]
 			hide: true
 			hide_text_until_complete: true
@@ -280,7 +280,7 @@
 		{
 			x: 4.0d
 			y: -1.5d
-			description: ["And now you're."]
+			description: ["{quest.chaptergroups.nether_exploration.7.9.description.1}"]
 			dependencies: ["59E0474D362D0937"]
 			hide: true
 			hide_text_until_complete: true
@@ -314,7 +314,7 @@
 		{
 			x: 5.0d
 			y: -1.5d
-			description: ["Hah."]
+			description: ["{quest.chaptergroups.nether_exploration.7.10.description.1}"]
 			dependencies: ["46C585E26D869B01"]
 			hide: true
 			hide_text_until_complete: true
@@ -346,7 +346,7 @@
 		{
 			x: -4.0d
 			y: 0.0d
-			description: ["I created \"Reach day\" type quests about this day."]
+			description: ["{quest.chaptergroups.nether_exploration.7.11.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["44467B2AB2E874A3"]
 			hide: true
@@ -373,7 +373,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["If you're reading this you're playing Minecraft."]
+			description: ["{quest.chaptergroups.nether_exploration.7.12.description.1}"]
 			dependencies: ["06EB31B0B8EA5CEC"]
 			hide: true
 			hide_text_until_complete: true
@@ -410,7 +410,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			description: ["I know you're wondering how many quests are there."]
+			description: ["{quest.chaptergroups.nether_exploration.7.13.description.1}"]
 			dependencies: ["061968753AE94B40"]
 			hide: true
 			hide_text_until_complete: true
@@ -447,7 +447,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			description: ["100 for sure."]
+			description: ["{quest.chaptergroups.nether_exploration.7.14.description.1}"]
 			dependencies: ["5B24EF11953C8CFD"]
 			hide: true
 			hide_text_until_complete: true
@@ -478,7 +478,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Sounds like a challenge?"]
+			description: ["{quest.chaptergroups.nether_exploration.7.15.description.1}"]
 			dependencies: ["2DE1CA2DC6632F19"]
 			hide: true
 			hide_text_until_complete: true
@@ -505,9 +505,9 @@
 			x: 1.0d
 			y: 0.0d
 			description: [
-				"I SURVIVED 100 DAYS IN LIVE IN THE VILLAGE MODPACK!"
+				"{quest.chaptergroups.nether_exploration.7.16.description.1}"
 				""
-				"Good title for a Youtube video."
+				"{quest.chaptergroups.nether_exploration.7.16.description.2}"
 			]
 			dependencies: ["0C040E6333183CAF"]
 			hide: true
@@ -539,7 +539,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["You're almost there."]
+			description: ["{quest.chaptergroups.nether_exploration.7.17.description.1}"]
 			dependencies: ["3780CD2BFB857AC4"]
 			hide: true
 			hide_text_until_complete: true
@@ -565,7 +565,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["Final steps."]
+			description: ["{quest.chaptergroups.nether_exploration.7.18.description.1}"]
 			dependencies: ["011913E4D2CA7AF1"]
 			hide: true
 			hide_text_until_complete: true
@@ -602,7 +602,7 @@
 		{
 			x: 4.0d
 			y: 0.0d
-			description: ["You're almost done."]
+			description: ["{quest.chaptergroups.nether_exploration.7.19.description.1}"]
 			dependencies: ["2DB922DEF5335F36"]
 			hide: true
 			hide_text_until_complete: true
@@ -635,9 +635,9 @@
 			x: 5.0d
 			y: 0.0d
 			description: [
-				"You did it! 100 DAYS!"
+				"{quest.chaptergroups.nether_exploration.7.20.description.1}"
 				""
-				"Oh did I said there are only 100? Nope."
+				"{quest.chaptergroups.nether_exploration.7.20.description.2}"
 			]
 			dependencies: ["0D2BD2A19863BA22"]
 			hide: true
@@ -682,9 +682,9 @@
 			x: -4.0d
 			y: 1.5d
 			description: [
-				"Did I already told you that I'm stuck here?"
+				"{quest.chaptergroups.nether_exploration.7.21.description.1}"
 				""
-				"With you?"
+				"{quest.chaptergroups.nether_exploration.7.21.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7D6A26E08461DE07"]
@@ -718,7 +718,7 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			description: ["And only you can break this spell."]
+			description: ["{quest.chaptergroups.nether_exploration.7.22.description.1}"]
 			dependencies: ["006410C879D85899"]
 			hide: true
 			hide_text_until_complete: true
@@ -756,7 +756,7 @@
 		{
 			x: -2.0d
 			y: 1.5d
-			description: ["When I'll be free - you will be free too."]
+			description: ["{quest.chaptergroups.nether_exploration.7.23.description.1}"]
 			dependencies: ["266CE3B857691E12"]
 			hide: true
 			hide_text_until_complete: true
@@ -793,7 +793,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			description: ["Until then - we are bonded together."]
+			description: ["{quest.chaptergroups.nether_exploration.7.24.description.1}"]
 			dependencies: ["260E05024675DBCF"]
 			hide: true
 			hide_text_until_complete: true
@@ -825,7 +825,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["How was your day?"]
+			description: ["{quest.chaptergroups.nether_exploration.7.25.description.1}"]
 			dependencies: ["163B9F3D4F272DF4"]
 			hide: true
 			hide_text_until_complete: true
@@ -858,9 +858,9 @@
 			x: 1.0d
 			y: 1.5d
 			description: [
-				"What are your plans for future?"
+				"{quest.chaptergroups.nether_exploration.7.26.description.1}"
 				""
-				"Do you plan sitting here until the end of quests?"
+				"{quest.chaptergroups.nether_exploration.7.26.description.2}"
 			]
 			dependencies: ["377571ED344BC82D"]
 			hide: true
@@ -894,7 +894,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["Seriously, stop spending time here"]
+			description: ["{quest.chaptergroups.nether_exploration.7.27.description.1}"]
 			dependencies: ["47AA5BE1F75ECC8F"]
 			hide: true
 			hide_text_until_complete: true
@@ -926,7 +926,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			description: ["This won't end, I can assure you"]
+			description: ["{quest.chaptergroups.nether_exploration.7.28.description.1}"]
 			dependencies: ["5D986150671EC0ED"]
 			hide: true
 			hide_text_until_complete: true
@@ -953,7 +953,7 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			description: ["Do you like playing games?"]
+			description: ["{quest.chaptergroups.nether_exploration.7.29.description.1}"]
 			dependencies: ["195B8FC12CF1FA96"]
 			hide: true
 			hide_text_until_complete: true
@@ -985,7 +985,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			description: ["Okay, you won. This is the last quest here. You're free now."]
+			description: ["{quest.chaptergroups.nether_exploration.7.30.description.1}"]
 			dependencies: ["2EC078DB2F945FB1"]
 			hide: true
 			hide_text_until_complete: true
@@ -1034,7 +1034,7 @@
 		{
 			x: -4.0d
 			y: 3.0d
-			description: ["Go live your life!"]
+			description: ["{quest.chaptergroups.nether_exploration.7.31.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["38DADE2FC9338CE2"]
 			hide: true
@@ -1085,7 +1085,7 @@
 		{
 			x: -3.0d
 			y: 3.0d
-			description: ["Stop wasting your time playing games!"]
+			description: ["{quest.chaptergroups.nether_exploration.7.32.description.1}"]
 			dependencies: ["16E6EF76D395D319"]
 			hide: true
 			hide_text_until_complete: true
@@ -1135,7 +1135,7 @@
 		{
 			x: -2.0d
 			y: 3.0d
-			description: ["Are you still here?"]
+			description: ["{quest.chaptergroups.nether_exploration.7.33.description.1}"]
 			dependencies: ["6F891D75F5BE8DD9"]
 			hide: true
 			hide_text_until_complete: true
@@ -1179,7 +1179,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
-			description: ["I'm tired of you."]
+			description: ["{quest.chaptergroups.nether_exploration.7.34.description.1}"]
 			dependencies: ["3AD9243FC656D01B"]
 			hide: true
 			hide_text_until_complete: true
@@ -1234,7 +1234,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["What if I say these type of quests are infinite :D"]
+			description: ["{quest.chaptergroups.nether_exploration.7.35.description.1}"]
 			dependencies: ["0E99800B5CCBB624"]
 			hide: true
 			hide_text_until_complete: true
@@ -1294,7 +1294,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
-			description: ["And you're stuck here..."]
+			description: ["{quest.chaptergroups.nether_exploration.7.36.description.1}"]
 			dependencies: ["22B9F32E6ECC9CA8"]
 			hide: true
 			hide_text_until_complete: true
@@ -1349,7 +1349,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
-			description: ["Forever . . ."]
+			description: ["{quest.chaptergroups.nether_exploration.7.37.description.1}"]
 			dependencies: ["3AD2918C0AF2FA03"]
 			hide: true
 			hide_text_until_complete: true
@@ -1399,7 +1399,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
-			description: [". . ."]
+			description: ["quest.chaptergroups.nether_exploration.7.38.description.1"]
 			dependencies: ["5842A72168165AE2"]
 			hide: true
 			hide_text_until_complete: true
@@ -1454,7 +1454,7 @@
 		{
 			x: 4.0d
 			y: 3.0d
-			description: [". . ."]
+			description: ["{quest.chaptergroups.nether_exploration.7.39.description.1}"]
 			dependencies: ["63133EFF7C3ACA26"]
 			hide: true
 			hide_text_until_complete: true
@@ -1498,7 +1498,7 @@
 		{
 			x: 5.0d
 			y: 3.0d
-			description: ["jk"]
+			description: ["{quest.chaptergroups.nether_exploration.7.40.description.1}"]
 			dependencies: ["5D520BFF8837A25F"]
 			hide: true
 			hide_text_until_complete: true

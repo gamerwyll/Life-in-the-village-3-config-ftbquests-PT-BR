@@ -1,7 +1,7 @@
 {
 	id: "0E5493707E76ECF8"
 	order_index: 22
-	title: "Lapis-coin"
+	title: "{quest.reward_tables.lapiscoin.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "kubejs:copper_coin" }

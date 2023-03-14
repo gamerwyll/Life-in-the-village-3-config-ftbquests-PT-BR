@@ -1,7 +1,7 @@
 {
 	id: "780A6CFC2F1EFBE6"
 	order_index: 19
-	title: "Netherite coin reward"
+	title: "{quest.reward_tables.netherite_coin_reward.title}"
 	loot_size: 1
 	rewards: [
 		{

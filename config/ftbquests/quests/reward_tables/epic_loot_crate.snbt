@@ -1,7 +1,7 @@
 {
 	id: "3A00AA024D71440E"
 	order_index: 9
-	title: "Epic loot crate"
+	title: "{quest.reward_tables.epic_loot_crate.title}"
 	loot_size: 1
 	rewards: [
 		{

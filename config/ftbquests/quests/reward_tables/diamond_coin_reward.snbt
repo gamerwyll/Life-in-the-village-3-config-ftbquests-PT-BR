@@ -1,7 +1,7 @@
 {
 	id: "0BC9EE62BBE93C0A"
 	order_index: 18
-	title: "Diamond coin reward"
+	title: "{quest.reward_tables.diamond_coin_reward.title}"
 	loot_size: 1
 	rewards: [
 		{

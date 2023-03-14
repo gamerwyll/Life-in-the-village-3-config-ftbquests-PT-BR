@@ -1,7 +1,7 @@
 {
 	id: "6A93A345CDF7C226"
 	order_index: 2
-	title: "Random Dyes"
+	title: "{quest.reward_tables.random_dyes.title}"
 	loot_size: 2
 	use_title: true
 	rewards: [

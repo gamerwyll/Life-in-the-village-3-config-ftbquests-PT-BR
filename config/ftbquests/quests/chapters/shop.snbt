@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 6
 	filename: "shop"
-	title: "$ - COIN SHOP - $"
+	title: "{quest.chaptergroups.a_reliable_friend.6.title}"
 	icon: "kubejs:gold_coin"
 	disable_toast: true
 	default_quest_shape: ""
@@ -96,7 +96,7 @@
 	]
 	quests: [
 		{
-			title: "Common loot crate random reward"
+			title: "{quest.chaptergroups.a_reliable_friend.6.1.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -108,7 +108,7 @@
 			x: -8.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Copper coin (repeatable)"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.2.subtitle}"
 			size: 2.0d
 			id: "64AE92F598464E3E"
 			tasks: [{
@@ -136,7 +136,7 @@
 			x: -4.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Iron coin (repeatable)"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.3.subtitle}"
 			size: 2.0d
 			id: "071F9F757CCADA93"
 			tasks: [{
@@ -152,7 +152,7 @@
 			}]
 		}
 		{
-			title: "Rare loot crate random reward"
+			title: "{quest.chaptergroups.a_reliable_friend.6.4.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -164,7 +164,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Gold coin (repeatable)"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.5.subtitle}"
 			size: 2.0d
 			id: "62356B57A7D667A6"
 			tasks: [{
@@ -180,7 +180,7 @@
 			}]
 		}
 		{
-			title: "Epic loot crate random reward"
+			title: "{quest.chaptergroups.a_reliable_friend.6.6.subtitle}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -192,7 +192,7 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Diamond coin (repeatable)"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.7.subtitle}"
 			size: 2.0d
 			id: "2EB2758D16E8BAE2"
 			tasks: [{
@@ -208,7 +208,7 @@
 			}]
 		}
 		{
-			title: "Legendary loot crate random reward"
+			title: "{quest.chaptergroups.a_reliable_friend.6.8.subtitle}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -220,7 +220,7 @@
 			x: 8.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Netherite coin (repeatable)"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.9.subtitle}"
 			size: 2.0d
 			id: "15645F279C638145"
 			tasks: [{
@@ -236,10 +236,10 @@
 			}]
 		}
 		{
-			title: "Exchange Stone"
+			title: "{quest.chaptergroups.a_reliable_friend.6.10.title}"
 			x: -6.0d
 			y: 0.0d
-			subtitle: "For Granite/Diorite/Andesite (repeatable)"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.11.subtitle}"
 			id: "7525A4AAA54D2F0F"
 			tasks: [{
 				id: "6CCAEDACC1C14C99"
@@ -259,7 +259,7 @@
 			x: -8.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.12.subtitle}"
 			size: 2.0d
 			id: "12AA5A2ECF315050"
 			tasks: [{
@@ -278,7 +278,7 @@
 			x: -4.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.13.subtitle}"
 			size: 2.0d
 			id: "4CA69F473539E565"
 			tasks: [{
@@ -298,7 +298,7 @@
 			x: 0.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.14.subtitle}"
 			size: 2.0d
 			id: "2146186B43D64F53"
 			tasks: [{
@@ -318,7 +318,7 @@
 			x: 4.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.15.subtitle}"
 			size: 2.0d
 			id: "0802FC6EE2B78153"
 			tasks: [{
@@ -338,7 +338,7 @@
 			x: 8.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.16.subtitle}"
 			size: 2.0d
 			id: "4BD23FFF77631DA0"
 			tasks: [{
@@ -354,10 +354,10 @@
 			}]
 		}
 		{
-			title: "Exchange Charcoal"
+			title: "{quest.chaptergroups.a_reliable_friend.6.17.title}"
 			x: -6.0d
 			y: 1.5d
-			subtitle: "For any type of wood (repeatable)"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.17.subtitle}"
 			id: "308D3B4CF9E12F88"
 			tasks: [{
 				id: "637C2DCF5167900B"
@@ -376,7 +376,7 @@
 			icon: "minecraft:emerald_block"
 			x: -2.5d
 			y: 4.0d
-			subtitle: "Exchange resources for coins"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.18.subtitle}"
 			id: "43B06F2F3D6CDA23"
 			tasks: [
 				{
@@ -403,7 +403,7 @@
 			icon: "minecraft:diamond_block"
 			x: 2.0d
 			y: 5.0d
-			subtitle: "Exchange resources for coins"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.19.subtitle}"
 			id: "71377794D49477FE"
 			tasks: [
 				{
@@ -430,7 +430,7 @@
 			icon: "minecraft:gold_block"
 			x: -1.5d
 			y: 4.0d
-			subtitle: "Exchange resources for coins"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.20.subtitle}"
 			id: "7C6A42B20111F81A"
 			tasks: [
 				{
@@ -457,7 +457,7 @@
 			icon: "minecraft:lapis_block"
 			x: -5.5d
 			y: 4.0d
-			subtitle: "Exchange resources for coins"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.21.subtitle}"
 			id: "0B5A2317489F888F"
 			tasks: [
 				{
@@ -484,7 +484,7 @@
 			icon: "minecraft:redstone_block"
 			x: -6.5d
 			y: 4.0d
-			subtitle: "Exchange resources for coins"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.22.subtitle}"
 			id: "1079D5E9E631D409"
 			tasks: [
 				{
@@ -511,7 +511,7 @@
 			icon: "minecraft:amethyst_block"
 			x: -6.0d
 			y: 5.0d
-			subtitle: "Exchange resources for coins"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.23.subtitle}"
 			id: "395B642C27BB51E8"
 			tasks: [
 				{
@@ -693,7 +693,7 @@
 			x: 0.0d
 			y: 9.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{quest.chaptergroups.a_reliable_friend.6.24.subtitle}"
 			size: 2.0d
 			id: "637B4E0CF8EE27A0"
 			tasks: [{
@@ -710,7 +710,7 @@
 			}]
 		}
 		{
-			title: "Random Common Hat Bag"
+			title: "{quest.chaptergroups.a_reliable_friend.6.25.title}"
 			icon: "simplehats:hatbag_common"
 			disable_toast: true
 			x: -8.0d
@@ -735,7 +735,7 @@
 			}]
 		}
 		{
-			title: "Random Uncommon Hat Bag"
+			title: "{quest.chaptergroups.a_reliable_friend.6.26.title}"
 			icon: "simplehats:hatbag_uncommon"
 			disable_toast: true
 			x: -4.0d
@@ -760,7 +760,7 @@
 			}]
 		}
 		{
-			title: "Random Rare Hat Bag"
+			title: "{quest.chaptergroups.a_reliable_friend.6.27.subtitle}"
 			icon: "simplehats:hatbag_rare"
 			disable_toast: true
 			x: 0.0d
@@ -785,7 +785,7 @@
 			}]
 		}
 		{
-			title: "Random Epic Hat Bag"
+			title: "{quest.chaptergroups.a_reliable_friend.6.28.title}"
 			icon: "simplehats:hatbag_epic"
 			disable_toast: true
 			x: 4.0d

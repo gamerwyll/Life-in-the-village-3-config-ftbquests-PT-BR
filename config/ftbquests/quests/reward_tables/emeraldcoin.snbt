@@ -1,7 +1,7 @@
 {
 	id: "7395DC580C3B9924"
 	order_index: 26
-	title: "Emerald-coin"
+	title: "{quest.reward_tables.emeraldcoin.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "kubejs:copper_coin", count: 2 }

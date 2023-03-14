@@ -1,7 +1,7 @@
 {
 	id: "3931E53FF85F6579"
 	order_index: 3
-	title: "Materials Random"
+	title: "{quest.reward_tables.materials_random.title}"
 	loot_size: 1
 	hide_tooltip: true
 	use_title: true

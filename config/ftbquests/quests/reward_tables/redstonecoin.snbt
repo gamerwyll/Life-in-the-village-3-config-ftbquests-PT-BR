@@ -1,7 +1,7 @@
 {
 	id: "4154CA41BC809899"
 	order_index: 23
-	title: "Redstone-coin"
+	title: "{quest.reward_tables.redstonecoin.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "kubejs:copper_coin" }
