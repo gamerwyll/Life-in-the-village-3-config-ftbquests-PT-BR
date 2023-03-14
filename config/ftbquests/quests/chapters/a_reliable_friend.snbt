@@ -3,22 +3,22 @@
 	group: ""
 	order_index: 4
 	filename: "a_reliable_friend"
-	title: "A Reliable Friend"
+	title: "{quest.chaptergroups.a_reliable_friend.4.title}"
 	icon: "doggytalents:doggy_charm"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Dog Bone"
+			title: "quest.chaptergroups.a_reliable_friend.4.title"
 			x: -3.0d
 			y: -2.5d
 			description: [
-				"Step 1:"
-				"Find a wild wolf (the Vanilla Minecraft wolf)."
-				"Step 2:"
-				"Feed it bones (right click with a bone in your hand) until hearts appear above its head. If a collar appears on its neck and it sits down, you've done it right!"
-				"Step 3:"
-				"Feed the dog at least one Training Treat and the dog will disappear for a very brief second and a dog without a collar will take its place. At this point, you now have a Doggy Talents dog."
+				"{quest.chaptergroups.step1}"
+				"{quest.chaptergroups.a_reliable_friend.4.1.description.1}"
+				"{quest.chaptergroups.step2}"
+				"{quest.chaptergroups.a_reliable_friend.4.1.description.2}"
+				"{quest.chaptergroups.step3}"
+				"{quest.chaptergroups.a_reliable_friend.4.1.description.3}"
 			]
 			size: 1.5d
 			id: "000000000000062D"
@@ -37,7 +37,7 @@
 		{
 			x: -0.5d
 			y: -2.5d
-			description: ["The first treat you will need to level up your dog. It can only level the dog to 20. After that, you will require the next tier treat, the Super Treat."]
+			description: ["{quest.chaptergroups.a_reliable_friend.4.2.description.1}"]
 			dependencies: ["000000000000062D"]
 			id: "000000000000062F"
 			tasks: [{
@@ -55,12 +55,12 @@
 			x: -0.5d
 			y: -0.5d
 			description: [
-				"Once you have a Doggy Talents dog, you will be able to right click on it with a stick in hand (main or secondary) to open the dog information/talents menu."
+				"{quest.chaptergroups.a_reliable_friend.4.3.description.1}"
 				""
-				"This menu allows you to change the name of your dog, toggle its behavior, add talents, and toggle whether to obey other players. In the menu, your dog's basic level, dire level, and level spending points will be displayed just under the name box."
+				"{quest.chaptergroups.a_reliable_friend.4.3.description.2}"
 				""
-				"The more you level up your dog using the Treats in this order: Training Treat, Super Treat, Master Treat, and Dire Treat; the more points you have available to spend on your talents. Eventually, the dog will hit its maximum level, which will not"
-				"allow you to get anymore points once it hits this level cap."
+				"{quest.chaptergroups.a_reliable_friend.4.3.description.3}"
+				"{quest.chaptergroups.a_reliable_friend.4.3.description.4}"
 			]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000631"
@@ -78,7 +78,7 @@
 		{
 			x: -0.5d
 			y: -4.0d
-			description: ["The second treat you will need to level up your dog. It can only level the dog to 40. After that, you will require the next tier treat, the Master Treat."]
+			description: ["{quest.chaptergroups.a_reliable_friend.4.4.description.1}"]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000633"
 			tasks: [{
@@ -95,7 +95,7 @@
 		{
 			x: -0.5d
 			y: -5.5d
-			description: ["The third treat you will need to level up your dog. It can only level the dog to 60. After that, you will require the final tier treat, the Dire Treat."]
+			description: ["{quest.chaptergroups.a_reliable_friend.4.5.description.1}"]
 			dependencies: ["0000000000000633"]
 			id: "0000000000000635"
 			tasks: [{
@@ -125,8 +125,8 @@
 			x: -0.5d
 			y: -7.0d
 			description: [
-				"The forth and final treat you will need to level up your dog. It adds dire levels, which is maxed at 30. After that, you will no longer have the ability to level up the dog, hence the dog has reached the ultimate level. Also, at the maximum dire"
-				"level, end-like particles will begin to emit from your dog."
+				"quest.chaptergroups.a_reliable_friend.4.6.description.1"
+				"quest.chaptergroups.a_reliable_friend.4.6.description.2"
 			]
 			dependencies: ["0000000000000635"]
 			id: "0000000000000637"
@@ -185,8 +185,8 @@
 			x: 2.5d
 			y: -1.5d
 			description: [
-				"This item is like a map, but for locating your dog when it has the Radio Collar equipped. To locate your dog, right click with the item in your main hand and it will give your dog's distance away from you and in which direction it is in. However,"
-				"this item only works if the dog is in the same dimension."
+				"{quest.chaptergroups.a_reliable_friend.4.7.description.1}"
+				"{quest.chaptergroups.a_reliable_friend.4.7.description.1}"
 			]
 			dependencies: ["0000000000000639"]
 			id: "000000000000063B"
@@ -225,8 +225,8 @@
 			x: -2.0d
 			y: -0.5d
 			description: [
-				"This item allows you to carry food items for your dog. You can feed your dog the items inside by right clicking on your dog with the bag in hand."
-				"You can also place the items from inside the bag into a Food Bowl by right clicking on the bowl with the bag in your hand."
+				"{quest.chaptergroups.a_reliable_friend.4.8.description.1}"
+				"{quest.chaptergroups.a_reliable_friend.4.8.description.2}"
 			]
 			dependencies: ["0000000000000631"]
 			id: "000000000000063D"
@@ -305,8 +305,8 @@
 			x: 1.0d
 			y: -0.5d
 			description: [
-				"This gives your dog a collar! To equip the collar, right click on your dog with the collar in your main hand. You can customize the color of the collars in a similar fashion as in the Wearable Backpacks mod!"
-				"To do so, just add it and dyes in a crafting table or applying it directly to your dog. You can take them off by using the Collar Sheers"
+				"{quest.chaptergroups.a_reliable_friend.4.9.description.1}"
+				"{quest.chaptergroups.a_reliable_friend.4.9.description.1}"
 			]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000644"
@@ -350,7 +350,7 @@
 		{
 			x: 0.5d
 			y: 1.0d
-			description: ["This special stick gives your dog the Glowing Level 1 effect for 100 ticks (5 seconds), the Speed Level 6 effect for 200 ticks (10 seconds), and the regeneration Level 1 effect for 100 ticks (5 seconds)."]
+			description: ["{quest.chaptergroups.a_reliable_friend.4.10.description.1}"]
 			dependencies: ["0000000000000631"]
 			id: "0000000000000649"
 			tasks: [{
@@ -376,8 +376,8 @@
 			x: 0.0d
 			y: 2.5d
 			description: [
-				"You can play with your dog with this item! First, set your dog into docile mode, then right click to throw the bone. The dog to take off after the bone, grab it, and give it back to you as a Drool Throw Bone"
-				"To throw the bone again, you must clean the bone off first by right clicking it or adding it to a crafting table in order to get a Throw Bone."
+				"{quest.chaptergroups.a_reliable_friend.4.11.description.1}"
+				"{quest.chaptergroups.a_reliable_friend.4.11.description.2}"
 			]
 			dependencies: ["0000000000000649"]
 			id: "000000000000064B"
@@ -403,7 +403,7 @@
 		{
 			x: 1.0d
 			y: 2.5d
-			description: ["This functions the same way as the Throw Bone."]
+			description: ["{quest.chaptergroups.a_reliable_friend.4.12.description.1}"]
 			dependencies: ["0000000000000649"]
 			id: "000000000000064D"
 			tasks: [{
@@ -428,7 +428,7 @@
 		{
 			x: -3.0d
 			y: 1.0d
-			description: ["This special bone is required to breed your dogs."]
+			description: ["{quest.chaptergroups.a_reliable_friend.4.13.description.1}"]
 			dependencies: ["0000000000000651"]
 			id: "000000000000064F"
 			tasks: [{
@@ -539,7 +539,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
-			description: ["These special sheers can cut off the wool collars off your dog. Also, the sheers can untame your dog."]
+			description: ["{quest.chaptergroups.a_reliable_friend.4.14.description.1}"]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000658"
 			tasks: [{
@@ -570,29 +570,29 @@
 			x: 1.5d
 			y: -4.0d
 			description: [
-				"Modes"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.1}"
 				""
-				"These control how the dog reacts to other entities and interacts with you The tips of each mode appear above the dog as in the following image"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.2}"
 				""
-				"Docile (D)"
-				"In this mode, your dog will follow you but not attack anything. They will also play fetch with you when you throw the Throw Bone or Throw Stick. This mode will show up as the tip,\"(D)\" just above the dogs name."
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.3}"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.4}"
 				""
-				"Wandering (W)"
-				"In this mode, your dog will stay near its bowl and wait for your next command. To set your dog's bowl, simply place one and bring your dog within 1 block of it. This mode will show up as the tip,\"(W)\" just above the dog's name."
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.5}"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.6}"
 				""
-				"Aggressive (A)"
-				"In this mode, your dog will follow you and attack anything that either attacks you or that you attack. This mode will show up as the tip,\"(A)\" just above the dogs name."
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.7}"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.8}"
 				""
-				"Berserker (B)"
-				"In this mode, your dog will follow you and will attack any mob that draws near. This mode will show up as the tip,\"(B)\" just above the dogs name."
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.9}"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.10}"
 				""
-				"Tactical (T)"
-				"In this mode, your dog will follow you but will not attack anything unless you use the command beam to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.11}"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.12}"
 				""
-				"Incapacitated (I)"
-				"In this mode, your dog will be covered in blood and it will not attack nor will let you interact with it (except to let you make it sit down). The dog will enter this mode only when its health is 1/2 of a heart (1 HP) and its health will not reach 0,"
-				"preventing the dog from dying. The dog will eventually exit this mode once its health reaches above 1 HP, however, it will not be at full health after exiting this mode. To force the dog to exit the mode at full health, feed it a cake."
-				"This mode can be turned off in the configuration settings. This mode will show up as the tip,\"(I)\" just above the dogs name."
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.12}"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.13}"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.14}"
+				"{quest.chaptergroups.a_reliable_friend.4.15.description.15}"
 			]
 			dependencies: ["000000000000062F"]
 			id: "000000000000065A"
