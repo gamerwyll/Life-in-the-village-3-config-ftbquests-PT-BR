@@ -1189,7 +1189,7 @@
 			title: "{quest.chaptergroups.farm.1.4.title}"
 			x: 0.0d
 			y: 1.0d
-			description: ["quest.chaptergroups.farm.1.4.description.1"]
+			description: ["{quest.chaptergroups.farm.1.4.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD6"
 			tasks: [{
@@ -1698,7 +1698,7 @@
 		{
 			x: -3.0d
 			y: 2.0d
-			description: ["quest.chaptergroups.farm.1.11.description.3"]
+			description: ["{quest.chaptergroups.farm.1.11.description.3}"]
 			id: "000000000000132B"
 			tasks: [{
 				id: "000000000000132C"
@@ -1954,7 +1954,7 @@
 		{
 			x: -3.5d
 			y: 7.5d
-			description: ["quest.chaptergroups.farm.1.11.description.11"]
+			description: ["{quest.chaptergroups.farm.1.11.description.11}"]
 			dependencies: ["000000000000161E"]
 			id: "0000000000001620"
 			tasks: [{
@@ -2081,7 +2081,7 @@
 			}]
 		}
 		{
-			title: "quest.chaptergroups.farm.1.12.title"
+			title: "{quest.chaptergroups.farm.1.12.title}"
 			x: -1.0d
 			y: 5.5d
 			description: ["{quest.chaptergroups.farm.1.12.description.1}"]

@@ -1399,7 +1399,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
-			description: ["quest.chaptergroups.nether_exploration.7.38.description.1"]
+			description: ["{quest.chaptergroups.nether_exploration.7.38.description.1}"]
 			dependencies: ["5842A72168165AE2"]
 			hide: true
 			hide_text_until_complete: true

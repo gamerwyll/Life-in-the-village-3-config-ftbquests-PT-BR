@@ -122,8 +122,8 @@
 			x: 11.5d
 			y: 4.0d
 			description: [
-				"quest.chaptergroups.simple_storage.2.7.description.1"
-				"quest.chaptergroups.simple_storage.2.7.description.2"
+				"{quest.chaptergroups.simple_storage.2.7.description.1}"
+				"{quest.chaptergroups.simple_storage.2.7.description.2}"
 			]
 			dependencies: ["00000000000001A1"]
 			id: "0000000000001134"
@@ -477,7 +477,7 @@
 			tasks: [{
 				id: "23A19BE3AFE3F041"
 				type: "item"
-				title: "quest.chaptergroups.simple_storage.2.21.title"
+				title: "{quest.chaptergroups.simple_storage.2.21.title}"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b

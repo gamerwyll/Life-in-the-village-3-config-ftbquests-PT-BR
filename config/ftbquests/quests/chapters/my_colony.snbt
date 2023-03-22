@@ -1684,7 +1684,7 @@
 			}
 			x: -0.5d
 			y: 3.5d
-			subtitle: "quest.chaptergroups.my_colony.2.20.subtitle"
+			subtitle: "{quest.chaptergroups.my_colony.2.20.subtitle}"
 			description: [
 				"{quest.chaptergroups.my_colony.2.20.description.1}"
 				"{quest.chaptergroups.my_colony.2.20.description.2}"
@@ -1756,7 +1756,7 @@
 		{
 			x: 2.5d
 			y: -2.5d
-			subtitle: "quest.chaptergroups.my_colony.2.23.subtitle"
+			subtitle: "{quest.chaptergroups.my_colony.2.23.subtitle}"
 			dependencies: ["00000000000000FD"]
 			id: "7CA034420293B0AE"
 			tasks: [{

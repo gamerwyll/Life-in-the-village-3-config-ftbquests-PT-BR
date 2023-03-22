@@ -2074,7 +2074,7 @@
 			x: -9.0d
 			y: 2.5d
 			subtitle: "{quest.chaptergroups.getting_started.0.31.subtitle}"
-			description: ["quest.chaptergroups.getting_started.0.31.description.1"]
+			description: ["{quest.chaptergroups.getting_started.0.31.description.1}"]
 			id: "70EE00F2D166500E"
 			tasks: [{
 				id: "51A7BB84F95A8A07"
@@ -2162,8 +2162,8 @@
 		{
 			x: -0.5d
 			y: -2.0d
-			subtitle: "quest.chaptergroups.getting_started.0.32.subtitle"
-			description: ["quest.chaptergroups.getting_started.0.32.description.1"]
+			subtitle: "{quest.chaptergroups.getting_started.0.32.subtitle}"
+			description: ["{quest.chaptergroups.getting_started.0.32.description.1}"]
 			dependencies: ["0000000000000013"]
 			id: "0994B5C8D2761BEA"
 			tasks: [{

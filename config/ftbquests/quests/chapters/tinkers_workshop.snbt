@@ -396,7 +396,7 @@
 			icon: "tconstruct:seared_melter"
 			x: 8.0d
 			y: 0.0d
-			subtitle: "quest.chaptergroups.tinkers_workshop.0.6.subtitle"
+			subtitle: "{quest.chaptergroups.tinkers_workshop.0.6.subtitle}"
 			description: [
 				"{quest.chaptergroups.tinkers_workshop.0.6.description.1}"
 				"{quest.chaptergroups.tinkers_workshop.0.6.description.2}"

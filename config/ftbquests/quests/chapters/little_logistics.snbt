@@ -497,7 +497,7 @@
 		{
 			x: 0.5d
 			y: -2.5d
-			description: ["quest.chaptergroups.little_logistics.3.20.description.1"]
+			description: ["{quest.chaptergroups.little_logistics.3.20.description.1}"]
 			dependencies: ["595BD3E85F2C6557"]
 			id: "5812EDA58F9B18DB"
 			tasks: [{

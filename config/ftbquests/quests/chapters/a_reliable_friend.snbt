@@ -125,8 +125,8 @@
 			x: -0.5d
 			y: -7.0d
 			description: [
-				"quest.chaptergroups.a_reliable_friend.4.6.description.1"
-				"quest.chaptergroups.a_reliable_friend.4.6.description.2"
+				"{quest.chaptergroups.a_reliable_friend.4.6.description.1}"
+				"{quest.chaptergroups.a_reliable_friend.4.6.description.2}"
 			]
 			dependencies: ["0000000000000635"]
 			id: "0000000000000637"
